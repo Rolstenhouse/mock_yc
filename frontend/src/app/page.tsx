@@ -87,7 +87,6 @@ export default function Home() {
     });
 
     vapi.on("message", (message) => {
-      console.log(message);
       if (message.type === "conversation-update") {
         setTranscript(message.conversation);
       }
