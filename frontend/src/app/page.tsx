@@ -354,7 +354,7 @@ export default function Home() {
         )}
         <div className='text-slate-400 text-sm m-4 hover:text-slate-600 hover:underline cursor-pointer'>
           <a href='https://www.ycombinator.com/interviews'>
-            Read YC's official interview guide
+            Read YC&apos;s official interview guide
           </a>
         </div>
         {showTranscript ? (
