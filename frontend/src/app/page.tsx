@@ -282,6 +282,12 @@ export default function Home() {
     // eslint-disable-next-line
     vapi.start(assistantOptions);
     setCallState("calling");
+    setTimeout(() => {
+      if (callState === "calling") {
+        setCallState("none");
+        window.alert("Call failed");
+      }
+    }, 5000);
   };
 
   const handleEnd = () => {
@@ -387,6 +393,13 @@ export default function Home() {
             >
               End call
             </div>
+            {/* <div className='flex flex-col text-center justify-center'>
+              <div className='text-xs text-slate-300'>Audio settings</div>
+              <div className='flex'>
+                <MicSelector />
+                <div>Speaker</div>
+              </div>
+            </div> */}
           </div>
         )}
         {callState === "finished" && (
@@ -474,6 +487,80 @@ const TranscriptLine = ({ index = 0, name = "You", message }) => {
       </b>{" "}
       {message.content}
       <br />
+    </div>
+  );
+};
+
+const MicSelector = () => {
+  const [devices, setDevices] = useState([]);
+  const [currentDeviceId, setCurrentDeviceId] = useState("");
+  const [stream, setStream] = useState(null);
+
+  // Fetch the list of available microphones
+  useEffect(() => {
+    const getDevices = async () => {
+      const mediaDevices = await navigator.mediaDevices.enumerateDevices();
+      const mics = mediaDevices.filter(
+        (device) => device.kind === "audioinput"
+      );
+      setDevices(mics);
+      if (mics.length > 0) {
+        setCurrentDeviceId(mics[0].deviceId); // Set initial mic
+      }
+    };
+
+    getDevices();
+  }, []);
+
+  // Update the current microphone stream
+  useEffect(() => {
+    const updateStream = async () => {
+      if (currentDeviceId) {
+        if (stream) {
+          stream.getTracks().forEach((track) => track.stop()); // Stop the current stream
+        }
+        const newStream = await navigator.mediaDevices.getUserMedia({
+          audio: {
+            deviceId: currentDeviceId ? { exact: currentDeviceId } : undefined,
+          },
+        });
+        setStream(newStream);
+      }
+    };
+
+    updateStream();
+
+    return () => {
+      if (stream) {
+        stream.getTracks().forEach((track) => track.stop());
+      }
+    };
+  }, [currentDeviceId]);
+
+  // Handle changing the selected microphone
+  const handleMicChange = (event) => {
+    setCurrentDeviceId(event.target.value);
+  };
+
+  return (
+    <div className='flex flex-col items-center justify-center space-y-4'>
+      <h2 className='text-2xl font-bold'>Select Microphone</h2>
+      <select
+        className='px-4 py-2 border rounded-md shadow-sm text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+        onChange={handleMicChange}
+        value={currentDeviceId}
+      >
+        {devices.map((device) => (
+          <option key={device.deviceId} value={device.deviceId}>
+            {device.label || `Microphone ${device.deviceId}`}
+          </option>
+        ))}
+      </select>
+      {stream && (
+        <p className='text-sm text-gray-500'>
+          Microphone is ready. Device ID: {currentDeviceId}
+        </p>
+      )}
     </div>
   );
 };
