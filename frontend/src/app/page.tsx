@@ -18,6 +18,21 @@ export default function Home() {
   const [time, setTime] = useState(0);
   const [questionStarted, setQuestionStarted] = useState(null);
   const [questionTime, setQuestionTime] = useState(0);
+
+  // Used for showing
+  const [partialQuestion, setPartialQuestion] = useState<{
+    role: string;
+    content: string;
+  }>();
+  const [partialAnswer, setPartialAnswer] = useState<{
+    role: string;
+    content: string;
+  }>();
+
+  const [finalQuestion, setFinalQuestion] = useState<"">();
+  const [finalAnswer, setFinalAnswer] = useState<"">();
+  const [showPartialTranscript, setShowPartialTranscript] = useState(true);
+
   const [transcript, setTranscript] = useState<
     { role: string; content: string }[]
   >([]);
@@ -56,6 +71,10 @@ export default function Home() {
     vapi.on("speech-start", () => {
       setQuestionStarted(null);
       setQuestionTime(0);
+      setFinalQuestion("");
+      setFinalAnswer("");
+      setPartialQuestion(null);
+      setPartialAnswer(null);
     });
 
     vapi.on("call-start", () => {
@@ -70,6 +89,32 @@ export default function Home() {
       console.log(message);
       if (message.type === "conversation-update") {
         setTranscript(message.conversation);
+      }
+
+      if (message.type === "transcript") {
+        if (message.transcriptType === "partial") {
+          if (message.role === "assistant") {
+            setPartialQuestion({
+              role: message.role,
+              content: finalQuestion
+                ? finalQuestion + " " + message.transcript
+                : message.transcript,
+            });
+          } else {
+            setPartialAnswer({
+              role: message.role,
+              content: finalAnswer
+                ? finalAnswer + " " + message.transcript
+                : message.transcript,
+            });
+          }
+        } else if (message.transcriptType === "final") {
+          if (message.role === "assistant") {
+            setFinalQuestion(message.transcript);
+          } else {
+            setFinalAnswer(message.transcript);
+          }
+        }
       }
     });
   }, []);
@@ -349,7 +394,7 @@ export default function Home() {
                 }}
                 className='bg-slate-800 text-white p-3 font-bold hover:bg-slate-500 transition-colors duration-200'
               >
-                Show Transcript
+                Show Full Transcript
               </div>
             </div>
           </>
@@ -370,6 +415,22 @@ export default function Home() {
                 <br />
               </div>
             ))}
+          </div>
+        ) : null}
+        {showPartialTranscript ? (
+          <div>
+            {[partialQuestion, partialAnswer].map((message, index) => {
+              if (!message) return null;
+              return (
+                <div key={index} className='text-sm text-slate-500'>
+                  <b className='text-slate-800'>
+                    {message.role === "assistant" ? "Interviewer" : name}:
+                  </b>{" "}
+                  {message.content}
+                  <br />
+                </div>
+              );
+            })}
           </div>
         ) : null}
       </div>
