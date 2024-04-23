@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Vapi from "@vapi-ai/web";
 import { useEffect, useState } from "react";
+import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 
 // Get public key from .env
 const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_PUBLIC_KEY);
@@ -29,7 +30,7 @@ export default function Home() {
     if (questionStarted) {
       intervalId = setInterval(() => {
         const now = new Date();
-        const elapsed = Math.floor((now - questionStarted) / 1000);
+        const elapsed = Math.floor((now.getTime() - questionStarted) / 1000);
         setQuestionTime(elapsed);
       }, 1000);
     }
@@ -73,7 +74,7 @@ export default function Home() {
     });
   }, []);
 
-  const assistantOptions = {
+  const assistantOptions: CreateAssistantDTO = {
     name: "YC Interview Executive Assistant",
     firstMessage: `What does ${name} do?`,
     numWordsToInterruptAssistant: 10,
@@ -220,6 +221,7 @@ export default function Home() {
   const seconds = time % 60;
 
   const handleStart = async () => {
+    // eslint-disable-next-line
     vapi.start(assistantOptions);
     setCallState("calling");
   };
