@@ -429,7 +429,7 @@ export default function Home() {
             ))}
           </div>
         ) : null}
-        {showPartialTranscript ? (
+        {showPartialTranscript && callState === "connected" ? (
           <div>
             {[partialQuestion, partialAnswer].map((message, index) => {
               return (
