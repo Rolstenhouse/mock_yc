@@ -8,11 +8,12 @@ import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 // Get public key from .env
 const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_PUBLIC_KEY);
 
+// choose mic
+// pick name
+
 export default function Home() {
-  const [name, setName] = useState("laguna");
-  const [statement, setStatement] = useState(
-    "let financial influencers share their trades"
-  );
+  const [name, setName] = useState("");
+  const [statement, setStatement] = useState("");
   const callStates = ["none", "calling", "connected", "finished"];
   const [callState, setCallState] = useState("none");
   const [time, setTime] = useState(0);
@@ -111,8 +112,20 @@ export default function Home() {
         } else if (message.transcriptType === "final") {
           if (message.role === "assistant") {
             setFinalQuestion(message.transcript);
+            setPartialQuestion({
+              role: message.role,
+              content: finalQuestion
+                ? finalQuestion + " " + message.transcript
+                : message.transcript,
+            });
           } else {
             setFinalAnswer(message.transcript);
+            setPartialAnswer({
+              role: message.role,
+              content: finalAnswer
+                ? finalAnswer + " " + message.transcript
+                : message.transcript,
+            });
           }
         }
       }
@@ -121,7 +134,7 @@ export default function Home() {
 
   const assistantOptions: CreateAssistantDTO = {
     name: "YC Interview Executive Assistant",
-    firstMessage: `What does ${name} do?`,
+    firstMessage: name ? `What does ${name} do?` : "What do you do?",
     numWordsToInterruptAssistant: 10,
     transcriber: {
       provider: "deepgram",
@@ -404,31 +417,27 @@ export default function Home() {
             Read YC&apos;s official interview guide
           </a>
         </div>
+
         {showTranscript ? (
           <div>
             {transcript.map((message, index) => (
-              <div key={index} className='text-sm text-slate-500'>
-                <b className='text-slate-800'>
-                  {message.role === "assistant" ? "Interviewer" : name}:
-                </b>{" "}
-                {message.content}
-                <br />
-              </div>
+              <TranscriptLine
+                key={index}
+                message={message}
+                name={name ? name : "You"}
+              />
             ))}
           </div>
         ) : null}
         {showPartialTranscript ? (
           <div>
             {[partialQuestion, partialAnswer].map((message, index) => {
-              if (!message) return null;
               return (
-                <div key={index} className='text-sm text-slate-500'>
-                  <b className='text-slate-800'>
-                    {message.role === "assistant" ? "Interviewer" : name}:
-                  </b>{" "}
-                  {message.content}
-                  <br />
-                </div>
+                <TranscriptLine
+                  key={index}
+                  message={message}
+                  name={name ? name : "You"}
+                />
               );
             })}
           </div>
@@ -455,3 +464,16 @@ export default function Home() {
     </main>
   );
 }
+
+const TranscriptLine = ({ index = 0, name = "You", message }) => {
+  if (!message) return null;
+  return (
+    <div key={index} className='text-sm text-slate-500'>
+      <b className='text-slate-800'>
+        {message.role === "assistant" ? "Interviewer" : name}:
+      </b>{" "}
+      {message.content}
+      <br />
+    </div>
+  );
+};
