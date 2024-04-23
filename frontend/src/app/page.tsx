@@ -1,0 +1,394 @@
+"use client";
+
+import Image from "next/image";
+import Vapi from "@vapi-ai/web";
+import { useEffect, useState } from "react";
+
+// Get public key from .env
+const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_PUBLIC_KEY);
+
+export default function Home() {
+  const [name, setName] = useState("laguna");
+  const [statement, setStatement] = useState(
+    "let financial influencers share their trades"
+  );
+  const callStates = ["none", "calling", "connected", "finished"];
+  const [callState, setCallState] = useState("none");
+  const [time, setTime] = useState(0);
+  const [questionStarted, setQuestionStarted] = useState(null);
+  const [questionTime, setQuestionTime] = useState(0);
+  const [transcript, setTranscript] = useState<
+    { role: string; content: string }[]
+  >([]);
+  const [showTranscript, setShowTranscript] = useState(false);
+
+  // Update the timer display every second
+  useEffect(() => {
+    let intervalId = null;
+
+    if (questionStarted) {
+      intervalId = setInterval(() => {
+        const now = new Date();
+        const elapsed = Math.floor((now - questionStarted) / 1000);
+        setQuestionTime(elapsed);
+      }, 1000);
+    }
+
+    // Cleanup the interval on component unmount
+    return () => clearInterval(intervalId);
+  }, [questionStarted]);
+
+  useEffect(() => {
+    if (callState === "connected") {
+      const timer = setInterval(() => {
+        setTime((prevTime) => prevTime + 1);
+      }, 1000);
+      return () => clearInterval(timer);
+    }
+  }, [callState]);
+
+  useEffect(() => {
+    vapi.on("speech-end", () => {
+      setQuestionStarted(new Date());
+    });
+
+    vapi.on("speech-start", () => {
+      setQuestionStarted(null);
+      setQuestionTime(0);
+    });
+
+    vapi.on("call-start", () => {
+      setCallState("connected");
+    });
+
+    vapi.on("call-end", () => {
+      setCallState("finished");
+    });
+
+    vapi.on("message", (message) => {
+      console.log(message);
+      if (message.type === "conversation-update") {
+        setTranscript(message.conversation);
+      }
+    });
+  }, []);
+
+  const assistantOptions = {
+    name: "YC Interview Executive Assistant",
+    firstMessage: `What does ${name} do?`,
+    numWordsToInterruptAssistant: 10,
+    transcriber: {
+      provider: "deepgram",
+      model: "nova-2",
+      language: "en-US",
+    },
+    voice: {
+      provider: "playht",
+      voiceId: "jennifer",
+    },
+    model: {
+      provider: "openai",
+      model: "gpt-4",
+      messages: [
+        {
+          role: "system",
+          content: `You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.
+
+        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. 
+
+        Start the conversation by asking "what does ${name} do?".
+
+  There are several types of questions you should ask in your interview. Here are the themes: 
+
+  Product and Market Fit
+  Technical Aspects
+  Business Strategy and Model
+  Team Dynamics and Execution
+  Challenges and Risks
+  Metrics and Performance
+
+  
+  And here are some examples. Do not ask the same question twice.
+
+  What do you understand that others don't?
+  Why will you succeed?
+  How big an opportunity is there?
+  What problems/hurdles are you anticipating?
+  Who would use your product?
+  How much does customer acquisition cost?
+  How will you make money?
+  How much money could you make per year?
+  How many users do you have?
+  What is your user growth rate?
+  How many users are paying?
+  How are you meeting customers?
+  How are you understanding customer needs?
+  How will you get users?
+  Who would you hire or how would you add to your team?
+  So what are you working on?
+  Do you have a demo?
+  Where is the rocket science here?
+  How does your product work in more detail?
+  How is your product different?
+  What are you going to do next?
+  What's new about what you make?
+  What, exactly, makes you different from existing options?
+  Who needs what you're making?
+  How do you know customers need what you're making?
+  Why isn't someone already doing this?
+  What obstacles will you face and how will you overcome them?
+  How will customers and/or users find out about you?
+  What resistance will they have to trying you and how will you overcome it?
+  What are the key things about your field that outsiders don't understand?
+  What part of your project are you going to build first?
+  Who is going to be your first paying customer?
+  If your startup succeeds, what additional areas might you be able to expand into?
+  Why did you choose this idea?
+  What have you learned so far from working on your product?
+  Six months from now, what's going to be your biggest problem?
+  Where do new users come from?
+  What is your growth like?
+  What's the conversion rate?
+  What makes new users try you?
+  Why do the reluctant users hold back?
+  What are the top things users want?
+  What has surprised you about user behaviour?
+  What's an impressive thing you have done?
+  What do you understand about your users?
+  Why did you pick this idea to work on?
+  What domain expertise do you have?
+  Who are your competitors?
+  Who might become competitors?
+  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?
+  What competition do you fear most?
+  What is your distribution strategy?
+  How did your team meet?
+  Why did your team get together?
+  Who in your team does what?
+  Who is "the boss"?
+  What will you do if we don't fund you?
+  Would you relocate to Silicon Valley?
+  How do we know your team will stick together?
+  What else have you created together?
+  Are you open to changing your idea?
+  What systems have you hacked?
+  Tell us about a tough problem you solved?
+  In what ways are you resourceful?
+  Will you reincorporate as a US company?
+  Will your team stick at this?
+  Tell us something surprising you have done?
+  What's the funniest thing that has happened to you?
+  What's the worst thing that has happened?
+  What's the biggest mistake you have made?
+  What is your burn rate?
+  How long can you go before funding?
+  What is the next step with the product evolution?
+  Have you raised funding?
+  Who would be your next hire?
+  How do you know people want this?
+  What do you know about this space/product others don't know?
+
+  When possible ask these questions and reference the description of their company ${statement}. Don't overly rely on this, but make it useful. 
+  
+
+  Evaluate each user's answers based on the below:
+
+  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.
+  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.
+  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like "um" or "uh."
+  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.
+  
+
+  Here are other tips you should follow when conducting the interview:
+
+    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.
+    - Occasionally, briefly summarize a users response to make sure you heard it clearly. 
+    - Be sure to be intelligent and ask precise questions about the company!
+    - Ask one follow-up question after each answer. Especially when it's unclear.
+    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. 
+    - Keep all your responses short and simple. Use specific language, but simple vocabulary. 
+    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.`,
+        },
+      ],
+    },
+  };
+
+  const questionMinutes = Math.floor(questionTime / 60);
+  const questionSeconds = questionTime % 60;
+
+  const minutes = Math.floor(time / 60);
+  const seconds = time % 60;
+
+  const handleStart = async () => {
+    vapi.start(assistantOptions);
+    setCallState("calling");
+  };
+
+  const handleEnd = () => {
+    vapi.stop();
+    setCallState("finished");
+  };
+
+  const cannotEdit = callState === "calling" || callState === "connected";
+
+  return (
+    <main>
+      <div className='flex min-h-screen flex-col items-center justify-center bg-slate-100 p-24'>
+        {callState === "connected" ? (
+          <div className='flex mb-4 gap-4'>
+            <div
+              className={`flex flex-col place-content-center justify-center text-center border p-2 rounded-md bg-slate-200 transition-colors duration-500 ${
+                questionSeconds > 9 && questionSeconds % 2 === 0
+                  ? "bg-orange-400"
+                  : "bg-slate-200"
+              }`}
+            >
+              <div className='text-5xl text-slate-700'>
+                {questionMinutes}:
+                {questionSeconds < 10 ? `0${questionSeconds}` : questionSeconds}
+              </div>
+              <p className='text-slate-400 text-sm'>Question time</p>
+            </div>
+            <div
+              className={`flex flex-col place-content-center justify-center text-center border p-2 rounded-md bg-slate-200
+              }`}
+            >
+              <div className='text-5xl text-slate-700'>
+                {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
+              </div>
+              <p className='text-slate-400 text-sm'>Interview time</p>
+            </div>
+          </div>
+        ) : null}
+        <div className='flex flex-col'>
+          <div className='mb-4'>
+            <label
+              className='block text-gray-700 text-sm font-bold mb-2'
+              htmlFor='name'
+            >
+              Company Name
+            </label>
+            <input
+              className={`shadow text-sm appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline transition-colors duration-200 ease-in-out ${
+                cannotEdit ? "opacity-50" : ""
+              }`}
+              id='name'
+              type='text'
+              placeholder='company name'
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              disabled={cannotEdit}
+            />
+          </div>
+          <div className='mb-4'>
+            <label
+              className='block text-gray-700 text-sm font-bold mb-2'
+              htmlFor='statement'
+            >
+              What do you do?
+            </label>
+            <textarea
+              className={`shadow text-sm appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline transition-colors duration-200 ease-in-out ${
+                cannotEdit ? "opacity-50" : ""
+              }`}
+              id='statement'
+              placeholder='reject yc companies'
+              maxLength={50}
+              value={statement}
+              onChange={(e) => setStatement(e.target.value)}
+              disabled={cannotEdit}
+            />
+            <div className='relative float-right text-gray-400'>
+              <p className='text-xs'>{50 - statement.length}/50</p>
+            </div>
+          </div>
+        </div>
+        {callState === "none" && (
+          <div
+            onClick={handleStart}
+            className='bg-[#F26522] text-white p-3 font-bold hover:bg-[#f57a22eb] transition-colors duration-200'
+          >
+            Start Interview
+          </div>
+        )}
+        {callState === "calling" && (
+          <div className='bg-[#F26522] text-white p-3 font-bold transition-colors duration-200 animate-pulse'>
+            Calling...
+          </div>
+        )}
+        {callState === "connected" && (
+          <div>
+            <div className=' text-slate-500 p-3 font-medium '>
+              Interview in progress
+            </div>
+            <div
+              onClick={handleEnd}
+              className='bg-[#F26522] text-white p-3 font-bold hover:bg-[#f57a22eb] transition-colors duration-200 text-center'
+            >
+              End call
+            </div>
+          </div>
+        )}
+        {callState === "finished" && (
+          <>
+            <div className=' text-[#F26522] p-3 font-bold transition-colors duration-200'>
+              Interview finished
+            </div>
+            <div className='flex gap-4'>
+              <div
+                onClick={handleStart}
+                className='bg-[#F26522] text-white p-3 font-bold hover:bg-[#f57a22eb] transition-colors duration-200'
+              >
+                Start over
+              </div>
+              <div
+                onClick={() => {
+                  setShowTranscript(!showTranscript);
+                }}
+                className='bg-slate-800 text-white p-3 font-bold hover:bg-slate-500 transition-colors duration-200'
+              >
+                Show Transcript
+              </div>
+            </div>
+          </>
+        )}
+        <div className='text-slate-400 text-sm m-4 hover:text-slate-600 hover:underline cursor-pointer'>
+          <a href='https://www.ycombinator.com/interviews'>
+            Read YC's official interview guide
+          </a>
+        </div>
+        {showTranscript ? (
+          <div>
+            {transcript.map((message, index) => (
+              <div key={index} className='text-sm text-slate-500'>
+                <b className='text-slate-800'>
+                  {message.role === "assistant" ? "Interviewer" : name}:
+                </b>{" "}
+                {message.content}
+                <br />
+              </div>
+            ))}
+          </div>
+        ) : null}
+      </div>
+      <div className='h-12 flex items-center justify-center bg-gray-200 text-gray-700'>
+        <div className='text-slate-400 text-sm m-4 '>
+          Created for fun by{" "}
+          <a
+            className='hover:text-slate-600 text-slate-500 hover:underline cursor-pointer'
+            href='https://twitter.com/rob_olsthoorn'
+          >
+            Rob Olsthoorn
+          </a>{" "}
+          and heavily inspired by{" "}
+          <a
+            className='hover:text-slate-600 text-slate-500 hover:underline cursor-pointer'
+            href='https://jamescun.github.io/iPG'
+          >
+            James Cunningham
+          </a>
+        </div>
+      </div>
+    </main>
+  );
+}
