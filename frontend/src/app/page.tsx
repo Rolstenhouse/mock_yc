@@ -396,7 +396,7 @@ export default function Home() {
             >
               End call
             </div>
-            <div className='flex flex-col gap-2 m-2'>
+            <div className='flex flex-col place-items-center gap-2 m-2'>
               <ConnectedInput />
               <ConnectedOutput />
             </div>
@@ -512,7 +512,7 @@ const ConnectedInput = () => {
   }, []);
 
   return (
-    <div className='w-4 h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
+    <div className='h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
       <FontAwesomeIcon icon={faMicrophone} /> <div>{currentDeviceName}</div>
     </div>
   );
@@ -538,8 +538,10 @@ const ConnectedOutput = () => {
     getDevices();
   }, []);
 
+  console.log(currentDeviceName);
+
   return (
-    <div className='w-4 h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
+    <div className='h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
       <FontAwesomeIcon icon={faHeadphones} /> <div>{currentDeviceName}</div>
     </div>
   );
