@@ -435,7 +435,7 @@ export default function Home() {
             </div>
           </>
         )}
-        <div className='text-slate-400 text-sm m-4 hover:text-slate-600 hover:underline cursor-pointer'>
+        <div className='text-slate-400 text-center text-sm m-4 hover:text-slate-600 hover:underline cursor-pointer'>
           <a href='https://www.ycombinator.com/interviews'>
             Read YC&apos;s official interview guide
           </a>
