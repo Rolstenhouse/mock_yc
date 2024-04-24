@@ -405,7 +405,7 @@ export default function Home() {
         ) : null}
         {callState === "connected" && (
           <div>
-            <div className=' text-slate-500 p-3 font-medium '>
+            <div className=' text-slate-500 p-3 text-center font-medium '>
               Interview in progress
             </div>
             <div
