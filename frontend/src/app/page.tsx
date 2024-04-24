@@ -289,6 +289,14 @@ export default function Home() {
   const questionMinutes = Math.floor(questionTime / 60);
   const questionSeconds = questionTime % 60;
 
+  useEffect(() => {
+    if (questionMinutes >= 10) {
+      vapi.stop();
+      setCallState("finished");
+      window.alert("Time's up. Interview time exceeded 10 minutes");
+    }
+  }, [questionMinutes]);
+
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
 
