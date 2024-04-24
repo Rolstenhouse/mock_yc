@@ -144,9 +144,13 @@ export default function Home() {
       model: "nova-2",
       language: "en-US",
     },
+    // voice: {
+    //   provider: "playht",
+    //   voiceId: "jennifer",
+    // },
     voice: {
-      provider: "playht",
-      voiceId: "jennifer",
+      provider: "11labs",
+      voiceId: "5v8WYXwPfkcp3o7efDZt", // Dalton
     },
     model: {
       provider: "openai",
