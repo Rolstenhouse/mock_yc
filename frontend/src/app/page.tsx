@@ -309,7 +309,9 @@ export default function Home() {
       <div className='flex min-h-screen flex-col items-center justify-center bg-slate-100 p-24'>
         <div className='mb-8 text-center flex flex-col place-items-center'>
           <div className='text-slate-800 font-bold text-4xl'>Mock YC</div>
-          <div className='text-slate-400 text-sm'>An interview simulator</div>
+          <div className='text-slate-400 text-sm'>
+            A voice-based interview tool
+          </div>
         </div>
         {callState === "connected" ? (
           <div className='flex mb-4 gap-4'>
