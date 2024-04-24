@@ -5,6 +5,10 @@ import Vapi from "@vapi-ai/web";
 import { useEffect, useState } from "react";
 import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMicrophone } from "@fortawesome/free-solid-svg-icons";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+
 // Get public key from .env
 const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_PUBLIC_KEY);
 
@@ -392,13 +396,10 @@ export default function Home() {
             >
               End call
             </div>
-            {/* <div className='flex flex-col text-center justify-center'>
-              <div className='text-xs text-slate-300'>Audio settings</div>
-              <div className='flex'>
-                <MicSelector />
-                <div>Speaker</div>
-              </div>
-            </div> */}
+            <div className='flex flex-col gap-2 m-2'>
+              <ConnectedInput />
+              <ConnectedOutput />
+            </div>
           </div>
         )}
         {callState === "finished" && (
@@ -490,12 +491,11 @@ const TranscriptLine = ({ index = 0, name = "You", message }) => {
   );
 };
 
-const MicSelector = () => {
+const ConnectedInput = () => {
   const [devices, setDevices] = useState([]);
-  const [currentDeviceId, setCurrentDeviceId] = useState("");
-  const [stream, setStream] = useState(null);
 
-  // Fetch the list of available microphones
+  const [currentDeviceName, setCurrentDeviceName] = useState("");
+
   useEffect(() => {
     const getDevices = async () => {
       const mediaDevices = await navigator.mediaDevices.enumerateDevices();
@@ -504,62 +504,43 @@ const MicSelector = () => {
       );
       setDevices(mics);
       if (mics.length > 0) {
-        setCurrentDeviceId(mics[0].deviceId); // Set initial mic
+        setCurrentDeviceName(mics[0].label); // Set initial mic name
       }
     };
 
     getDevices();
   }, []);
 
-  // Update the current microphone stream
+  return (
+    <div className='w-4 h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
+      <FontAwesomeIcon icon={faMicrophone} /> <div>{currentDeviceName}</div>
+    </div>
+  );
+};
+
+const ConnectedOutput = () => {
+  const [devices, setDevices] = useState([]);
+
+  const [currentDeviceName, setCurrentDeviceName] = useState("");
+
   useEffect(() => {
-    const updateStream = async () => {
-      if (currentDeviceId) {
-        if (stream) {
-          stream.getTracks().forEach((track) => track.stop()); // Stop the current stream
-        }
-        const newStream = await navigator.mediaDevices.getUserMedia({
-          audio: {
-            deviceId: currentDeviceId ? { exact: currentDeviceId } : undefined,
-          },
-        });
-        setStream(newStream);
+    const getDevices = async () => {
+      const mediaDevices = await navigator.mediaDevices.enumerateDevices();
+      const speakers = mediaDevices.filter(
+        (device) => device.kind === "audiooutput"
+      );
+      setDevices(speakers);
+      if (speakers.length > 0) {
+        setCurrentDeviceName(speakers[0].label); // Set initial speaker name
       }
     };
 
-    updateStream();
-
-    return () => {
-      if (stream) {
-        stream.getTracks().forEach((track) => track.stop());
-      }
-    };
-  }, [currentDeviceId]);
-
-  // Handle changing the selected microphone
-  const handleMicChange = (event) => {
-    setCurrentDeviceId(event.target.value);
-  };
+    getDevices();
+  }, []);
 
   return (
-    <div className='flex flex-col items-center justify-center space-y-4'>
-      <h2 className='text-2xl font-bold'>Select Microphone</h2>
-      <select
-        className='px-4 py-2 border rounded-md shadow-sm text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
-        onChange={handleMicChange}
-        value={currentDeviceId}
-      >
-        {devices.map((device) => (
-          <option key={device.deviceId} value={device.deviceId}>
-            {device.label || `Microphone ${device.deviceId}`}
-          </option>
-        ))}
-      </select>
-      {stream && (
-        <p className='text-sm text-gray-500'>
-          Microphone is ready. Device ID: {currentDeviceId}
-        </p>
-      )}
+    <div className='w-4 h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
+      <FontAwesomeIcon icon={faHeadphones} /> <div>{currentDeviceName}</div>
     </div>
   );
 };
