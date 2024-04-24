@@ -467,7 +467,7 @@ export default function Home() {
         ) : null}
       </div>
       <div className='h-12 flex items-center justify-center bg-gray-200 text-gray-700'>
-        <div className='text-slate-400 text-sm m-4 '>
+        <div className='text-slate-400 text-center text-sm m-4 '>
           Created for fun by{" "}
           <a
             className='hover:text-slate-600 text-slate-500 hover:underline cursor-pointer'
