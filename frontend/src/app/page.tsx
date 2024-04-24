@@ -70,10 +70,17 @@ export default function Home() {
 
   useEffect(() => {
     vapi.on("speech-end", () => {
+      if (callState === "calling") {
+        setCallState("connected");
+      }
       setQuestionStarted(new Date());
     });
 
     vapi.on("speech-start", () => {
+      if (callState === "calling") {
+        setCallState("connected");
+      }
+
       setQuestionStarted(null);
       setQuestionTime(0);
       setFinalQuestion("");
@@ -313,32 +320,7 @@ export default function Home() {
             A voice-based interview tool
           </div>
         </div>
-        {callState === "connected" ? (
-          <div className='flex mb-4 gap-4'>
-            <div
-              className={`flex flex-col place-content-center justify-center text-center border p-2 rounded-md bg-slate-200 transition-colors duration-500 ${
-                questionSeconds > 9 && questionSeconds % 2 === 0
-                  ? "bg-orange-400"
-                  : "bg-slate-200"
-              }`}
-            >
-              <div className='text-5xl text-slate-700'>
-                {questionMinutes}:
-                {questionSeconds < 10 ? `0${questionSeconds}` : questionSeconds}
-              </div>
-              <p className='text-slate-400 text-sm'>Question time</p>
-            </div>
-            <div
-              className={`flex flex-col place-content-center justify-center text-center border p-2 rounded-md bg-slate-200
-              }`}
-            >
-              <div className='text-5xl text-slate-700'>
-                {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
-              </div>
-              <p className='text-slate-400 text-sm'>Interview time</p>
-            </div>
-          </div>
-        ) : null}
+
         <div className='flex flex-col'>
           <div className='mb-4'>
             <label
@@ -395,6 +377,32 @@ export default function Home() {
             Calling...
           </div>
         )}
+        {callState === "connected" ? (
+          <div className='flex mb-4 gap-4'>
+            <div
+              className={`flex flex-col place-content-center justify-center text-center border p-2 rounded-md transition-colors duration-500 ${
+                questionSeconds > 9 && questionSeconds % 2 === 0
+                  ? "bg-orange-400"
+                  : "bg-slate-200"
+              }`}
+            >
+              <div className='text-5xl text-slate-700'>
+                {questionMinutes}:
+                {questionSeconds < 10 ? `0${questionSeconds}` : questionSeconds}
+              </div>
+              <p className='text-slate-400 text-sm'>Question time</p>
+            </div>
+            <div
+              className={`flex flex-col place-content-center justify-center text-center border p-2 rounded-md bg-slate-200
+              }`}
+            >
+              <div className='text-5xl text-slate-700'>
+                {minutes}:{seconds < 10 ? `0${seconds}` : seconds}
+              </div>
+              <p className='text-slate-400 text-sm'>Interview time</p>
+            </div>
+          </div>
+        ) : null}
         {callState === "connected" && (
           <div>
             <div className=' text-slate-500 p-3 font-medium '>
