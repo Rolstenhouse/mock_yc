@@ -46,12 +46,28 @@ export default function Home() {
   // Update the timer display every second
   useEffect(() => {
     let intervalId = null;
+    const interruptionTime = Math.floor(Math.random() * 6) + 10; // Random time between 15-20s
 
     if (questionStarted) {
       intervalId = setInterval(() => {
         const now = new Date();
         const elapsed = Math.floor((now.getTime() - questionStarted) / 1000);
         setQuestionTime(elapsed);
+        if (elapsed >= 1) {
+          console.log(elapsed);
+
+          console.log(
+            vapi.send({
+              type: "add-message",
+              message: {
+                role: "tool",
+                content:
+                  "The user has spent too long answering the question. Interrupt the conversation.",
+              },
+            })
+          );
+          vapi.setMuted(true);
+        }
       }, 1000);
     }
 
@@ -74,6 +90,9 @@ export default function Home() {
         setCallState("connected");
       }
       setQuestionStarted(new Date());
+      if (vapi.isMuted()) {
+        vapi.setMuted(false);
+      }
     });
 
     vapi.on("speech-start", () => {
@@ -95,6 +114,12 @@ export default function Home() {
 
     vapi.on("call-end", () => {
       setCallState("finished");
+      setQuestionStarted(null);
+      setQuestionTime(0);
+      setFinalQuestion("");
+      setFinalAnswer("");
+      setPartialQuestion(null);
+      setPartialAnswer(null);
     });
 
     vapi.on("message", (message) => {
@@ -565,8 +590,6 @@ const ConnectedOutput = () => {
 
     getDevices();
   }, []);
-
-  console.log(currentDeviceName);
 
   return (
     <div className='h-4 gap-1 text-slate-300 flex justify-center place-content-center place-items-center'>
