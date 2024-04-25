@@ -66,7 +66,7 @@ export default function Home() {
               },
             })
           );
-          vapi.setMuted(true);
+          // vapi.setMuted(true);
         }
       }, 1000);
     }
@@ -354,9 +354,13 @@ export default function Home() {
           <div className='text-slate-400 text-sm'>
             A voice-based interview tool
           </div>
+          <br />
+          <div className='text-slate-400 text-xs max-w-72'>
+            Input company details. AI will customize your interview.
+          </div>
         </div>
 
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-56'>
           <div className='mb-4'>
             <label
               className='block text-gray-700 text-sm font-bold mb-2'
@@ -384,7 +388,7 @@ export default function Home() {
               What do you do?
             </label>
             <textarea
-              className={`shadow text-sm appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline transition-colors duration-200 ease-in-out ${
+              className={`shadow text-sm appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none w-full focus:shadow-outline transition-colors duration-200 ease-in-out ${
                 cannotEdit ? "opacity-50" : ""
               }`}
               id='statement'
@@ -400,11 +404,19 @@ export default function Home() {
           </div>
         </div>
         {callState === "none" && (
-          <div
-            onClick={handleStart}
-            className='bg-[#F26522] text-white p-3 font-bold hover:bg-[#f57a22eb] transition-colors duration-200'
-          >
-            Start Interview
+          <div className='text-center flex flex-col place-items-center'>
+            <div className='text-slate-400 text-center text-xs max-w-72'>
+              On start, AI asks questions via mic/speakers. Transcript available
+              post-call.
+              <br />
+              <br />
+            </div>
+            <div
+              onClick={handleStart}
+              className='bg-[#F26522] text-white p-3 font-bold hover:bg-[#f57a22eb] transition-colors duration-200 w-fit'
+            >
+              Start Interview
+            </div>
           </div>
         )}
         {callState === "calling" && (

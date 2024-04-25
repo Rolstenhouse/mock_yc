@@ -22,21 +22,18 @@ export default function RootLayout({
     <html lang='en'>
       <CSPostHogProvider>
         <head>
-          <title>{metadata.title}</title>
+          <title>{metadata.title as React.ReactNode}</title>
           <meta name='description' content={metadata.description} />
           <link rel='canonical' href={canonicalUrl} />
-          <meta property='og:title' content={metadata.title} />
+          <meta property='og:title' content={metadata.title.toString()} />
           <meta property='og:description' content={metadata.description} />
           <meta property='og:url' content={canonicalUrl} />
-          <meta property='og:site_name' content='Your Website Name' />
-          <meta
-            property='og:image'
-            content={`${process.env.NEXT_PUBLIC_BASE_URL}/icon.jpeg`}
-          />
+          <meta property='og:site_name' content='Mock YC Interview' />
+          <meta property='og:image' content={`${canonicalUrl}/icon.jpeg`} />
           <link
             rel='icon'
             type='image/x-icon'
-            href={`${process.env.NEXT_PUBLIC_BASE_URL}/favicon.ico`}
+            href={`${canonicalUrl}/favicon.ico`}
           />
         </head>
         <body className={inter.className}>{children}</body>
