@@ -204,7 +204,6 @@ export default function Home() {
   Team Dynamics and Execution
   Challenges and Risks
   Metrics and Performance
-
   
   And here are some examples. Do not ask the same question twice.
 
