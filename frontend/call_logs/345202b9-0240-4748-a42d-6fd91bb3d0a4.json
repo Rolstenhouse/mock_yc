@@ -1,0 +1,1540 @@
+{
+  "id": "345202b9-0240-4748-a42d-6fd91bb3d0a4",
+  "type": "webCall",
+  "startedAt": "2024-12-09T02:19:43.555Z",
+  "endedAt": "2024-12-09T02:21:21.278Z",
+  "transcript": "AI: What does Lambda dot global do?\nUser: So we are an AI driven platform that connects recruiters\nUser: and creating an\nUser: network effect to empower them to find the better candidates to shorter\nUser: More affordable way.\nAI: Who would use your product?\nUser: Recorders company corporate recruiters,\nUser: independent recruiters, recruiting agencies,\nUser: and top talents.\nAI: Hi.\nAI: How do you know recruiters and companies need what you're making?\nUser: So we have been, uh, interviewing with about a hundred local\nUser: recruiters and, you know, 45\nUser: global recruiters from Tintra Lee GS Hyperice and some of the\nUser: MENA regions, and they stated that it takes\nUser: majority of the time to find the\nUser: The\nUser: the qualified candidates to start interviewing\nUser: So that finding and sourcing takes about 45 days.\nUser: And they have\nUser: receiving the overwhelming amount of\nUser: resumes, and they have to go through and screen them.\nUser: And identify which candidates are best. Uh, 1, 2,\nUser: move forward. So it's time consuming at\nUser: costly, so they would like to get rid of those tasks and\nUser: help them to reduce task.\nAI: Got it. What specific\n",
+  "recordingUrl": "https://storage.vapi.ai/345202b9-0240-4748-a42d-6fd91bb3d0a4-1733710883789-1c150f2d-bae8-4dd4-9caf-f2e2f6a42900-mono.wav",
+  "summary": "Lambda.global is an AI-driven platform that connects recruiters and creates a network effect to help them find better candidates more quickly and affordably. The company has interviewed numerous recruiters who reported spending significant time (around 45 days) on sourcing and screening candidates, a process they find time-consuming and costly. Lambda.global aims to streamline these tasks for recruiters, companies, and recruiting agencies.",
+  "createdAt": "2024-12-09T02:19:37.644Z",
+  "updatedAt": "2024-12-09T02:21:28.114Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.3081,
+  "webCallUrl": "https://vapi.daily.co/uYDVWSm51TEGrTzA1S95",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Lambda.Global do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI Recruiting. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does Lambda.Global do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1733710778073,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Lambda.Global do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI Recruiting. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1733710779787,
+      "source": "",
+      "endTime": 1733710781397,
+      "message": "What does Lambda dot global do?",
+      "duration": 1610,
+      "secondsFromStart": 1.4399999
+    },
+    {
+      "role": "user",
+      "time": 1733710782997,
+      "endTime": 1733710786857,
+      "message": "So we are an AI driven platform that connects recruiters",
+      "duration": 3860,
+      "secondsFromStart": 4.65
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710787284,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 9.211
+    },
+    {
+      "role": "user",
+      "time": 1733710787406.999,
+      "endTime": 1733710788357,
+      "message": "and creating an",
+      "duration": 950.0009765625,
+      "secondsFromStart": 9.059999
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710788280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.207
+    },
+    {
+      "role": "user",
+      "time": 1733710788837,
+      "endTime": 1733710793017,
+      "message": "network effect to empower them to find the better candidates to shorter",
+      "duration": 4180,
+      "secondsFromStart": 10.49
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710789284,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.211
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710790281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.208
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710791281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.208
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710792280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 14.207
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710793281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.208
+    },
+    {
+      "role": "user",
+      "time": 1733710793517,
+      "endTime": 1733710794637,
+      "message": "More affordable way.",
+      "duration": 1120,
+      "secondsFromStart": 15.17
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710794282,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.209
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710795280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.207
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710796281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.208
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710797278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.205
+    },
+    {
+      "role": "bot",
+      "time": 1733710797436.998,
+      "source": "",
+      "endTime": 1733710798817,
+      "message": "Who would use your product?",
+      "duration": 1380.001953125,
+      "secondsFromStart": 19.089998
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710798279,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.206
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710799282,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.209
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710800283,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.21
+    },
+    {
+      "role": "user",
+      "time": 1733710802207,
+      "endTime": 1733710805257,
+      "message": "Recorders company corporate recruiters,",
+      "duration": 2120,
+      "secondsFromStart": 23.86
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710804779,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.706
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710805779,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.706
+    },
+    {
+      "role": "user",
+      "time": 1733710805997,
+      "endTime": 1733710808257,
+      "message": "independent recruiters, recruiting agencies,",
+      "duration": 2260,
+      "secondsFromStart": 27.65
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710806778,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.705
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710809279,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.206
+    },
+    {
+      "role": "user",
+      "time": 1733710809527,
+      "endTime": 1733710810507,
+      "message": "and top talents.",
+      "duration": 980,
+      "secondsFromStart": 31.18
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710810281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 32.208
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710811279,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.206
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710812281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 34.208
+    },
+    {
+      "role": "bot",
+      "time": 1733710813167,
+      "source": "",
+      "endTime": 1733710813627,
+      "message": "Hi.",
+      "duration": 460,
+      "secondsFromStart": 34.82
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710813280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.207
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710814281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 36.208
+    },
+    {
+      "role": "bot",
+      "time": 1733710814347,
+      "source": "",
+      "endTime": 1733710817027,
+      "message": "How do you know recruiters and companies need what you're making?",
+      "duration": 2680,
+      "secondsFromStart": 36
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710815293,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 37.22
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710816280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 38.207
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710817284,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 39.211
+    },
+    {
+      "role": "user",
+      "time": 1733710819127,
+      "endTime": 1733710823307,
+      "message": "So we have been, uh, interviewing with about a hundred local",
+      "duration": 4180,
+      "secondsFromStart": 40.78
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710823382,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 45.309
+    },
+    {
+      "role": "user",
+      "time": 1733710823647,
+      "endTime": 1733710825507,
+      "message": "recruiters and, you know, 45",
+      "duration": 1860,
+      "secondsFromStart": 45.3
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710824384,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 46.311
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710825379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 47.306
+    },
+    {
+      "role": "user",
+      "time": 1733710826087,
+      "endTime": 1733710829337,
+      "message": "global recruiters from Tintra Lee GS Hyperice and some of the",
+      "duration": 3250,
+      "secondsFromStart": 47.74
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710826381,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 48.308
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710827382,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 49.309
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710828380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 50.307
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710829380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 51.307
+    },
+    {
+      "role": "user",
+      "time": 1733710829817,
+      "endTime": 1733710832357,
+      "message": "MENA regions, and they stated that it takes",
+      "duration": 2540,
+      "secondsFromStart": 51.47
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710830382,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 52.309
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710831381,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 53.308
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710832382,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 54.309
+    },
+    {
+      "role": "user",
+      "time": 1733710832676.998,
+      "endTime": 1733710834637,
+      "message": "majority of the time to find the",
+      "duration": 1960.001953125,
+      "secondsFromStart": 54.329998
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710833382,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 55.309
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710834382,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 56.309
+    },
+    {
+      "role": "user",
+      "time": 1733710834797,
+      "endTime": 1733710835297,
+      "message": "The",
+      "duration": 500,
+      "secondsFromStart": 56.45
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710835380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 57.307
+    },
+    {
+      "role": "user",
+      "time": 1733710836207,
+      "endTime": 1733710838787.002,
+      "message": "the qualified candidates to start interviewing",
+      "duration": 2580.001953125,
+      "secondsFromStart": 57.86
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710836379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 58.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710837379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 59.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710838380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 60.307
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710839378,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 61.305
+    },
+    {
+      "role": "user",
+      "time": 1733710839457,
+      "endTime": 1733710842917,
+      "message": "So that finding and sourcing takes about 45 days.",
+      "duration": 3460,
+      "secondsFromStart": 61.11
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710840379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 62.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710841379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 63.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710842380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 64.307
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710843380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 65.307
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710844379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 66.306
+    },
+    {
+      "role": "user",
+      "time": 1733710844597,
+      "endTime": 1733710845576.996,
+      "message": "And they have",
+      "duration": 979.99609375,
+      "secondsFromStart": 66.25
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710845379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 67.306
+    },
+    {
+      "role": "user",
+      "time": 1733710846297,
+      "endTime": 1733710848637,
+      "message": "receiving the overwhelming amount of",
+      "duration": 2340,
+      "secondsFromStart": 67.95
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710846400,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 68.327
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710847378,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 69.305
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710848380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 70.307
+    },
+    {
+      "role": "user",
+      "time": 1733710848877,
+      "endTime": 1733710851407,
+      "message": "resumes, and they have to go through and screen them.",
+      "duration": 2530,
+      "secondsFromStart": 70.53
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710849379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 71.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710850380,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 72.307
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710851379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 73.306
+    },
+    {
+      "role": "user",
+      "time": 1733710852286.995,
+      "endTime": 1733710856146.995,
+      "message": "And identify which candidates are best. Uh, 1, 2,",
+      "duration": 3860,
+      "secondsFromStart": 73.939995
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710852381,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 74.308
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710853379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 75.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710854378,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 76.305
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710855379,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 77.306
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710856381,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 78.308
+    },
+    {
+      "role": "user",
+      "time": 1733710856506.996,
+      "endTime": 1733710859167,
+      "message": "move forward. So it's time consuming at",
+      "duration": 2660.00390625,
+      "secondsFromStart": 78.159996
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710859278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 81.205
+    },
+    {
+      "role": "user",
+      "time": 1733710859907.005,
+      "endTime": 1733710863217,
+      "message": "costly, so they would like to get rid of those tasks and",
+      "duration": 3309.9951171875,
+      "secondsFromStart": 81.560005
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710860279,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 82.206
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710861278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 83.205
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710862282,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 84.209
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710863280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 85.207
+    },
+    {
+      "role": "user",
+      "time": 1733710863697.006,
+      "endTime": 1733710865877,
+      "message": "help them to reduce task.",
+      "duration": 2179.993896484375,
+      "secondsFromStart": 85.350006
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710864278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 86.205
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710865278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 87.205
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710866283,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 88.21
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710867281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 89.208
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710868280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 90.207
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710869279,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 91.206
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710870282,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 92.209
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710871278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 93.205
+    },
+    {
+      "role": "bot",
+      "time": 1733710871407,
+      "source": "",
+      "endTime": 1733710872466.995,
+      "message": "Got it. What specific",
+      "duration": 1059.9951171875,
+      "secondsFromStart": 93.06
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710872278,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 94.205
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710873280,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 95.207
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1733710876182,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 98.109
+    }
+  ],
+  "stereoRecordingUrl": "https://storage.vapi.ai/345202b9-0240-4748-a42d-6fd91bb3d0a4-1733710883798-0e3313d7-57eb-418a-a382-87f7b937be72-stereo.wav",
+  "costBreakdown": {
+    "stt": 0.0178,
+    "llm": 0.2011,
+    "tts": 0,
+    "vapi": 0.0814,
+    "total": 0.3081,
+    "llmPromptTokens": 34665,
+    "llmCompletionTokens": 215,
+    "ttsCharacters": 1088,
+    "analysisCostBreakdown": {
+      "summary": 0.0024,
+      "structuredData": 0,
+      "successEvaluation": 0.0054,
+      "summaryPromptTokens": 363,
+      "summaryCompletionTokens": 88,
+      "structuredDataPromptTokens": 0,
+      "successEvaluationPromptTokens": 1793,
+      "structuredDataCompletionTokens": 0,
+      "successEvaluationCompletionTokens": 4
+    }
+  },
+  "analysis": {
+    "summary": "Lambda.global is an AI-driven platform that connects recruiters and creates a network effect to help them find better candidates more quickly and affordably. The company has interviewed numerous recruiters who reported spending significant time (around 45 days) on sourcing and screening candidates, a process they find time-consuming and costly. Lambda.global aims to streamline these tasks for recruiters, companies, and recruiting agencies.",
+    "successEvaluation": "false"
+  },
+  "artifact": {
+    "recordingUrl": "https://storage.vapi.ai/345202b9-0240-4748-a42d-6fd91bb3d0a4-1733710883789-1c150f2d-bae8-4dd4-9caf-f2e2f6a42900-mono.wav",
+    "stereoRecordingUrl": "https://storage.vapi.ai/345202b9-0240-4748-a42d-6fd91bb3d0a4-1733710883798-0e3313d7-57eb-418a-a382-87f7b937be72-stereo.wav",
+    "messages": [
+      {
+        "role": "system",
+        "time": 1733710778073,
+        "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Lambda.Global do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI Recruiting. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "time": 1733710779787,
+        "source": "",
+        "endTime": 1733710781397,
+        "message": "What does Lambda dot global do?",
+        "duration": 1610,
+        "secondsFromStart": 1.4399999
+      },
+      {
+        "role": "user",
+        "time": 1733710782997,
+        "endTime": 1733710786857,
+        "message": "So we are an AI driven platform that connects recruiters",
+        "duration": 3860,
+        "secondsFromStart": 4.65
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710787284,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 9.211
+      },
+      {
+        "role": "user",
+        "time": 1733710787406.999,
+        "endTime": 1733710788357,
+        "message": "and creating an",
+        "duration": 950.0009765625,
+        "secondsFromStart": 9.059999
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710788280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 10.207
+      },
+      {
+        "role": "user",
+        "time": 1733710788837,
+        "endTime": 1733710793017,
+        "message": "network effect to empower them to find the better candidates to shorter",
+        "duration": 4180,
+        "secondsFromStart": 10.49
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710789284,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 11.211
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710790281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 12.208
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710791281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 13.208
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710792280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 14.207
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710793281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 15.208
+      },
+      {
+        "role": "user",
+        "time": 1733710793517,
+        "endTime": 1733710794637,
+        "message": "More affordable way.",
+        "duration": 1120,
+        "secondsFromStart": 15.17
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710794282,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 16.209
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710795280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 17.207
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710796281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 18.208
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710797278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 19.205
+      },
+      {
+        "role": "bot",
+        "time": 1733710797436.998,
+        "source": "",
+        "endTime": 1733710798817,
+        "message": "Who would use your product?",
+        "duration": 1380.001953125,
+        "secondsFromStart": 19.089998
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710798279,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 20.206
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710799282,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 21.209
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710800283,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 22.21
+      },
+      {
+        "role": "user",
+        "time": 1733710802207,
+        "endTime": 1733710805257,
+        "message": "Recorders company corporate recruiters,",
+        "duration": 2120,
+        "secondsFromStart": 23.86
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710804779,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 26.706
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710805779,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 27.706
+      },
+      {
+        "role": "user",
+        "time": 1733710805997,
+        "endTime": 1733710808257,
+        "message": "independent recruiters, recruiting agencies,",
+        "duration": 2260,
+        "secondsFromStart": 27.65
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710806778,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 28.705
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710809279,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 31.206
+      },
+      {
+        "role": "user",
+        "time": 1733710809527,
+        "endTime": 1733710810507,
+        "message": "and top talents.",
+        "duration": 980,
+        "secondsFromStart": 31.18
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710810281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 32.208
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710811279,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 33.206
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710812281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 34.208
+      },
+      {
+        "role": "bot",
+        "time": 1733710813167,
+        "source": "",
+        "endTime": 1733710813627,
+        "message": "Hi.",
+        "duration": 460,
+        "secondsFromStart": 34.82
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710813280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 35.207
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710814281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 36.208
+      },
+      {
+        "role": "bot",
+        "time": 1733710814347,
+        "source": "",
+        "endTime": 1733710817027,
+        "message": "How do you know recruiters and companies need what you're making?",
+        "duration": 2680,
+        "secondsFromStart": 36
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710815293,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 37.22
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710816280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 38.207
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710817284,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 39.211
+      },
+      {
+        "role": "user",
+        "time": 1733710819127,
+        "endTime": 1733710823307,
+        "message": "So we have been, uh, interviewing with about a hundred local",
+        "duration": 4180,
+        "secondsFromStart": 40.78
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710823382,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 45.309
+      },
+      {
+        "role": "user",
+        "time": 1733710823647,
+        "endTime": 1733710825507,
+        "message": "recruiters and, you know, 45",
+        "duration": 1860,
+        "secondsFromStart": 45.3
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710824384,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 46.311
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710825379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 47.306
+      },
+      {
+        "role": "user",
+        "time": 1733710826087,
+        "endTime": 1733710829337,
+        "message": "global recruiters from Tintra Lee GS Hyperice and some of the",
+        "duration": 3250,
+        "secondsFromStart": 47.74
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710826381,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 48.308
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710827382,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 49.309
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710828380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 50.307
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710829380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 51.307
+      },
+      {
+        "role": "user",
+        "time": 1733710829817,
+        "endTime": 1733710832357,
+        "message": "MENA regions, and they stated that it takes",
+        "duration": 2540,
+        "secondsFromStart": 51.47
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710830382,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 52.309
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710831381,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 53.308
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710832382,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 54.309
+      },
+      {
+        "role": "user",
+        "time": 1733710832676.998,
+        "endTime": 1733710834637,
+        "message": "majority of the time to find the",
+        "duration": 1960.001953125,
+        "secondsFromStart": 54.329998
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710833382,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 55.309
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710834382,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 56.309
+      },
+      {
+        "role": "user",
+        "time": 1733710834797,
+        "endTime": 1733710835297,
+        "message": "The",
+        "duration": 500,
+        "secondsFromStart": 56.45
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710835380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 57.307
+      },
+      {
+        "role": "user",
+        "time": 1733710836207,
+        "endTime": 1733710838787.002,
+        "message": "the qualified candidates to start interviewing",
+        "duration": 2580.001953125,
+        "secondsFromStart": 57.86
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710836379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 58.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710837379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 59.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710838380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 60.307
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710839378,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 61.305
+      },
+      {
+        "role": "user",
+        "time": 1733710839457,
+        "endTime": 1733710842917,
+        "message": "So that finding and sourcing takes about 45 days.",
+        "duration": 3460,
+        "secondsFromStart": 61.11
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710840379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 62.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710841379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 63.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710842380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 64.307
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710843380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 65.307
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710844379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 66.306
+      },
+      {
+        "role": "user",
+        "time": 1733710844597,
+        "endTime": 1733710845576.996,
+        "message": "And they have",
+        "duration": 979.99609375,
+        "secondsFromStart": 66.25
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710845379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 67.306
+      },
+      {
+        "role": "user",
+        "time": 1733710846297,
+        "endTime": 1733710848637,
+        "message": "receiving the overwhelming amount of",
+        "duration": 2340,
+        "secondsFromStart": 67.95
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710846400,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 68.327
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710847378,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 69.305
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710848380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 70.307
+      },
+      {
+        "role": "user",
+        "time": 1733710848877,
+        "endTime": 1733710851407,
+        "message": "resumes, and they have to go through and screen them.",
+        "duration": 2530,
+        "secondsFromStart": 70.53
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710849379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 71.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710850380,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 72.307
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710851379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 73.306
+      },
+      {
+        "role": "user",
+        "time": 1733710852286.995,
+        "endTime": 1733710856146.995,
+        "message": "And identify which candidates are best. Uh, 1, 2,",
+        "duration": 3860,
+        "secondsFromStart": 73.939995
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710852381,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 74.308
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710853379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 75.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710854378,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 76.305
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710855379,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 77.306
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710856381,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 78.308
+      },
+      {
+        "role": "user",
+        "time": 1733710856506.996,
+        "endTime": 1733710859167,
+        "message": "move forward. So it's time consuming at",
+        "duration": 2660.00390625,
+        "secondsFromStart": 78.159996
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710859278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 81.205
+      },
+      {
+        "role": "user",
+        "time": 1733710859907.005,
+        "endTime": 1733710863217,
+        "message": "costly, so they would like to get rid of those tasks and",
+        "duration": 3309.9951171875,
+        "secondsFromStart": 81.560005
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710860279,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 82.206
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710861278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 83.205
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710862282,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 84.209
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710863280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 85.207
+      },
+      {
+        "role": "user",
+        "time": 1733710863697.006,
+        "endTime": 1733710865877,
+        "message": "help them to reduce task.",
+        "duration": 2179.993896484375,
+        "secondsFromStart": 85.350006
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710864278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 86.205
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710865278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 87.205
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710866283,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 88.21
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710867281,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 89.208
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710868280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 90.207
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710869279,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 91.206
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710870282,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 92.209
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710871278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 93.205
+      },
+      {
+        "role": "bot",
+        "time": 1733710871407,
+        "source": "",
+        "endTime": 1733710872466.995,
+        "message": "Got it. What specific",
+        "duration": 1059.9951171875,
+        "secondsFromStart": 93.06
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710872278,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 94.205
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710873280,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 95.207
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1733710876182,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 98.109
+      }
+    ],
+    "messagesOpenAIFormatted": [
+      {
+        "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Lambda.Global do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI Recruiting. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "role": "system"
+      },
+      {
+        "content": "What does Lambda dot global do?",
+        "role": "assistant"
+      },
+      {
+        "content": "So we are an AI driven platform that connects recruiters and creating an network effect to empower them to find the better candidates to shorter More affordable way.",
+        "role": "user"
+      },
+      {
+        "content": "Who would use your product?",
+        "role": "assistant"
+      },
+      {
+        "content": "Recorders company corporate recruiters, independent recruiters, recruiting agencies, and top talents.",
+        "role": "user"
+      },
+      {
+        "content": "Hi. How do you know recruiters and companies need what you're making?",
+        "role": "assistant"
+      },
+      {
+        "content": "So we have been, uh, interviewing with about a hundred local recruiters and, you know, 45 global recruiters from Tintra Lee GS Hyperice and some of the MENA regions, and they stated that it takes majority of the time to find the The the qualified candidates to start interviewing So that finding and sourcing takes about 45 days. And they have receiving the overwhelming amount of resumes, and they have to go through and screen them. And identify which candidates are best. Uh, 1, 2, move forward. So it's time consuming at costly, so they would like to get rid of those tasks and help them to reduce task.",
+        "role": "user"
+      },
+      {
+        "content": "Got it. What specific",
+        "role": "assistant"
+      }
+    ],
+    "transcript": "AI: What does Lambda dot global do?\nUser: So we are an AI driven platform that connects recruiters\nUser: and creating an\nUser: network effect to empower them to find the better candidates to shorter\nUser: More affordable way.\nAI: Who would use your product?\nUser: Recorders company corporate recruiters,\nUser: independent recruiters, recruiting agencies,\nUser: and top talents.\nAI: Hi.\nAI: How do you know recruiters and companies need what you're making?\nUser: So we have been, uh, interviewing with about a hundred local\nUser: recruiters and, you know, 45\nUser: global recruiters from Tintra Lee GS Hyperice and some of the\nUser: MENA regions, and they stated that it takes\nUser: majority of the time to find the\nUser: The\nUser: the qualified candidates to start interviewing\nUser: So that finding and sourcing takes about 45 days.\nUser: And they have\nUser: receiving the overwhelming amount of\nUser: resumes, and they have to go through and screen them.\nUser: And identify which candidates are best. Uh, 1, 2,\nUser: move forward. So it's time consuming at\nUser: costly, so they would like to get rid of those tasks and\nUser: help them to reduce task.\nAI: Got it. What specific\n"
+  },
+  "costs": [
+    {
+      "cost": 0.01776511,
+      "type": "transcriber",
+      "minutes": 1.7259666666666669,
+      "transcriber": {
+        "model": "nova-2",
+        "provider": "deepgram"
+      }
+    },
+    {
+      "cost": 0.2010675,
+      "type": "model",
+      "model": {
+        "model": "gpt-4",
+        "provider": "openai"
+      },
+      "promptTokens": 34665,
+      "completionTokens": 215
+    },
+    {
+      "cost": 0,
+      "type": "voice",
+      "voice": {
+        "voiceId": "5v8WYXwPfkcp3o7efDZt",
+        "provider": "11labs"
+      },
+      "characters": 1088
+    },
+    {
+      "cost": 0.081435,
+      "type": "vapi",
+      "minutes": 1.6287,
+      "subType": "normal"
+    },
+    {
+      "cost": 0.002409,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "summary",
+      "promptTokens": 363,
+      "completionTokens": 88
+    },
+    {
+      "cost": 0.005439,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "successEvaluation",
+      "promptTokens": 1793,
+      "completionTokens": 4
+    }
+  ],
+  "monitor": {
+    "listenUrl": "wss://phone-call-websocket.aws-us-west-2-backend-production2.vapi.ai/345202b9-0240-4748-a42d-6fd91bb3d0a4/listen",
+    "controlUrl": "https://phone-call-websocket.aws-us-west-2-backend-production2.vapi.ai/345202b9-0240-4748-a42d-6fd91bb3d0a4/control"
+  },
+  "transport": {
+    "assistantVideoEnabled": false
+  }
+}

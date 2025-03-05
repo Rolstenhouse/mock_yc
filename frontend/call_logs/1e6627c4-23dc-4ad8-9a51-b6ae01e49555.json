@@ -1,0 +1,1510 @@
+{
+  "id": "1e6627c4-23dc-4ad8-9a51-b6ae01e49555",
+  "type": "webCall",
+  "startedAt": "2024-11-25T16:40:06.572Z",
+  "endedAt": "2024-11-25T16:41:49.048Z",
+  "transcript": "AI: What does Avatar do?\nUser: Avatar h is an AI native personal health record. It helps patients coordinate care, get health insights, and find and apply for financial assistance.\nUser: Like having a patient advocate in your pocket that knows everything about you.\nAI: Who is\nAI: who would use your product?\nUser: We think the people who would use our product are those who want a patient advocate but cannot afford them.\nUser: Patient advocates get paid a hundred to 400 dollars an hour for the services that we would provide.\nAI: How do you plan to monetize this service and keep it affordable for users?\nUser: When it comes\nUser: to financial assistance, which is our initial wedge, we wanna do this based off of usage based pricing. So this means the amount of applications that our app\nUser: fills out for you is how much you would pay.\nUser: When it comes to health insights, we wanna make a freemium model with a 10 to 20 dollar a month\nUser: subscription.\nAI: Who are your competitors in this space?\nUser: Our primary competitors are Guava Health and Primary\nUser: These are both personal health record solutions.\nUser: However, neither of them focus on finding and applying for financial assistance, which is our wedge.\nUser: Maybe also, like, not focus on Oh, shit. Yeah.\nUser: Unstructured data. Yeah. I'll mention those 3 in total. Okay.\nAI: What makes your product different from these competitors?\nUser: Uh, 3 things. The first is we're the only ones that focus on finding and applying for financial\nUser: assistance. Uh, the second is, um, for\n",
+  "recordingUrl": "https://storage.vapi.ai/1e6627c4-23dc-4ad8-9a51-b6ae01e49555-1732552911553-ac336b54-cf8d-4464-9c37-6d2219fb2301-mono.wav",
+  "summary": "Avatar h is an AI-powered personal health record that helps patients coordinate care, get health insights, and find financial assistance. The service targets people who want a patient advocate but can't afford traditional options. The company plans to monetize through usage-based pricing for financial assistance applications and a freemium model with a monthly subscription for health insights.",
+  "createdAt": "2024-11-25T16:39:57.152Z",
+  "updatedAt": "2024-11-25T16:41:54.867Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.3149,
+  "webCallUrl": "https://vapi.daily.co/gR4yqDaRPFzznVtwUloZ",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does AvatarH do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI-native personal health record. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does AvatarH do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1732552797977,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does AvatarH do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI-native personal health record. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1732552799537,
+      "source": "",
+      "endTime": 1732552800887,
+      "message": "What does Avatar do?",
+      "duration": 1350,
+      "secondsFromStart": 1.28
+    },
+    {
+      "role": "user",
+      "time": 1732552801737,
+      "endTime": 1732552809797,
+      "message": "Avatar h is an AI native personal health record. It helps patients coordinate care, get health insights, and find and apply for financial assistance.",
+      "duration": 7250.0009765625,
+      "secondsFromStart": 3.48
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552809924,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.947
+    },
+    {
+      "role": "user",
+      "time": 1732552809957,
+      "endTime": 1732552813427,
+      "message": "Like having a patient advocate in your pocket that knows everything about you.",
+      "duration": 3470,
+      "secondsFromStart": 11.7
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552810925,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.948
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552811924,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.947
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552812924,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 14.947
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552813920,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.943
+    },
+    {
+      "role": "bot",
+      "time": 1732552814327,
+      "source": "",
+      "endTime": 1732552814997,
+      "message": "Who is",
+      "duration": 670,
+      "secondsFromStart": 16.07
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552814926,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.949
+    },
+    {
+      "role": "bot",
+      "time": 1732552815717,
+      "source": "",
+      "endTime": 1732552817177,
+      "message": "who would use your product?",
+      "duration": 1460,
+      "secondsFromStart": 17.46
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552815925,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.948
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552816922,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.945
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552817922,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.945
+    },
+    {
+      "role": "user",
+      "time": 1732552818197,
+      "endTime": 1732552823027,
+      "message": "We think the people who would use our product are those who want a patient advocate but cannot afford them.",
+      "duration": 4830,
+      "secondsFromStart": 19.94
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552818919,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.942
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552819927,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.95
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552820922,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.945
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552821928,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.951
+    },
+    {
+      "role": "user",
+      "time": 1732552823187,
+      "endTime": 1732552827547,
+      "message": "Patient advocates get paid a hundred to 400 dollars an hour for the services that we would provide.",
+      "duration": 4360,
+      "secondsFromStart": 24.93
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552826222,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.245
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552827218,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 29.241
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552828218,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 30.241
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552829224,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.247
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552830217,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 32.24
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552831220,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.243
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552832221,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 34.244
+    },
+    {
+      "role": "bot",
+      "time": 1732552832647,
+      "source": "",
+      "endTime": 1732552835947,
+      "message": "How do you plan to monetize this service and keep it affordable for users?",
+      "duration": 3300,
+      "secondsFromStart": 34.39
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552833222,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.245
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552834220,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 36.243
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552835223,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 37.246
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552836227,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 38.25
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552837222,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 39.245
+    },
+    {
+      "role": "user",
+      "time": 1732552837687,
+      "endTime": 1732552838387,
+      "message": "When it comes",
+      "duration": 700,
+      "secondsFromStart": 39.43
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552838226,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 40.249
+    },
+    {
+      "role": "user",
+      "time": 1732552838387,
+      "endTime": 1732552846337,
+      "message": "to financial assistance, which is our initial wedge, we wanna do this based off of usage based pricing. So this means the amount of applications that our app",
+      "duration": 7130,
+      "secondsFromStart": 40.13
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552845421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 47.444
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552846419,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 48.442
+    },
+    {
+      "role": "user",
+      "time": 1732552846497,
+      "endTime": 1732552848647,
+      "message": "fills out for you is how much you would pay.",
+      "duration": 2150,
+      "secondsFromStart": 48.24
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552847422,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 49.445
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552848421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 50.444
+    },
+    {
+      "role": "user",
+      "time": 1732552848727,
+      "endTime": 1732552853307,
+      "message": "When it comes to health insights, we wanna make a freemium model with a 10 to 20 dollar a month",
+      "duration": 4580,
+      "secondsFromStart": 50.47
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552849423,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 51.446
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552850423,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 52.446
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552852420,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 54.443
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552853423,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 55.446
+    },
+    {
+      "role": "user",
+      "time": 1732552854167,
+      "endTime": 1732552854667,
+      "message": "subscription.",
+      "duration": 500,
+      "secondsFromStart": 55.91
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552854422,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 56.445
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552855423,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 57.446
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552856423,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 58.446
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552857420,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 59.443
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552858424,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 60.447
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552859420,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 61.443
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552860419,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 62.442
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552861422,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 63.445
+    },
+    {
+      "role": "bot",
+      "time": 1732552861467,
+      "source": "",
+      "endTime": 1732552863247,
+      "message": "Who are your competitors in this space?",
+      "duration": 1780,
+      "secondsFromStart": 63.21
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552862421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 64.444
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552863425,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 65.448
+    },
+    {
+      "role": "user",
+      "time": 1732552864197,
+      "endTime": 1732552866937,
+      "message": "Our primary competitors are Guava Health and Primary",
+      "duration": 2740,
+      "secondsFromStart": 65.94
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552864418,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 66.441
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552865421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 67.444
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552866421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 68.444
+    },
+    {
+      "role": "user",
+      "time": 1732552867327,
+      "endTime": 1732552869587,
+      "message": "These are both personal health record solutions.",
+      "duration": 2260,
+      "secondsFromStart": 69.07
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552867429,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 69.452
+    },
+    {
+      "role": "user",
+      "time": 1732552869747.005,
+      "endTime": 1732552874247.005,
+      "message": "However, neither of them focus on finding and applying for financial assistance, which is our wedge.",
+      "duration": 4500,
+      "secondsFromStart": 71.490005
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552872623,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 74.646
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552873625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 75.648
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552874621,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 76.644
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552875622,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 77.645
+    },
+    {
+      "role": "user",
+      "time": 1732552876177,
+      "endTime": 1732552878597.004,
+      "message": "Maybe also, like, not focus on Oh, shit. Yeah.",
+      "duration": 2420.00390625,
+      "secondsFromStart": 77.92
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552876641,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 78.664
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552877625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 79.648
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552878621,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 80.644
+    },
+    {
+      "role": "user",
+      "time": 1732552879197,
+      "endTime": 1732552882077,
+      "message": "Unstructured data. Yeah. I'll mention those 3 in total. Okay.",
+      "duration": 2880,
+      "secondsFromStart": 80.94
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552879621,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 81.644
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552880621,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 82.644
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552881624,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 83.647
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552882624,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 84.647
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552883620,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 85.643
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552884625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 86.648
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552885633,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 87.656
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552886621,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 88.644
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552887621,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 89.644
+    },
+    {
+      "role": "bot",
+      "time": 1732552888586.994,
+      "source": "",
+      "endTime": 1732552890927,
+      "message": "What makes your product different from these competitors?",
+      "duration": 2340.006103515625,
+      "secondsFromStart": 90.329994
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552888627,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 90.65
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552889626,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 91.649
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552890623,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 92.646
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552891628,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 93.651
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552892629,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 94.652
+    },
+    {
+      "role": "user",
+      "time": 1732552893437,
+      "endTime": 1732552897447,
+      "message": "Uh, 3 things. The first is we're the only ones that focus on finding and applying for financial",
+      "duration": 4010,
+      "secondsFromStart": 95.18
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552893623,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 95.646
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552894625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 96.648
+    },
+    {
+      "role": "user",
+      "time": 1732552897607.006,
+      "endTime": 1732552900747,
+      "message": "assistance. Uh, the second is, um, for",
+      "duration": 2679.9951171875,
+      "secondsFromStart": 99.350006
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552900719,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 102.742
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552901721,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 103.744
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552902723,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 104.746
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552903725,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 105.748
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552904722,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 106.745
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552905717,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 107.74
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552906721,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 108.744
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1732552907719,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 109.742
+    }
+  ],
+  "stereoRecordingUrl": "https://storage.vapi.ai/1e6627c4-23dc-4ad8-9a51-b6ae01e49555-1732552911554-1606f48e-ee58-4724-a371-58289c886d16-stereo.wav",
+  "costBreakdown": {
+    "stt": 0.0189,
+    "llm": 0.2025,
+    "tts": 0,
+    "vapi": 0.0854,
+    "total": 0.3149,
+    "llmPromptTokens": 43866,
+    "llmCompletionTokens": 255,
+    "ttsCharacters": 1322,
+    "analysisCostBreakdown": {
+      "summary": 0.0024,
+      "structuredData": 0,
+      "successEvaluation": 0.0057,
+      "summaryPromptTokens": 436,
+      "summaryCompletionTokens": 73,
+      "structuredDataPromptTokens": 0,
+      "successEvaluationPromptTokens": 1870,
+      "structuredDataCompletionTokens": 0,
+      "successEvaluationCompletionTokens": 4
+    }
+  },
+  "analysis": {
+    "summary": "Avatar h is an AI-powered personal health record that helps patients coordinate care, get health insights, and find financial assistance. The service targets people who want a patient advocate but can't afford traditional options. The company plans to monetize through usage-based pricing for financial assistance applications and a freemium model with a monthly subscription for health insights.",
+    "successEvaluation": "false"
+  },
+  "artifact": {
+    "recordingUrl": "https://storage.vapi.ai/1e6627c4-23dc-4ad8-9a51-b6ae01e49555-1732552911553-ac336b54-cf8d-4464-9c37-6d2219fb2301-mono.wav",
+    "stereoRecordingUrl": "https://storage.vapi.ai/1e6627c4-23dc-4ad8-9a51-b6ae01e49555-1732552911554-1606f48e-ee58-4724-a371-58289c886d16-stereo.wav",
+    "messages": [
+      {
+        "role": "system",
+        "time": 1732552797977,
+        "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does AvatarH do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI-native personal health record. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "time": 1732552799537,
+        "source": "",
+        "endTime": 1732552800887,
+        "message": "What does Avatar do?",
+        "duration": 1350,
+        "secondsFromStart": 1.28
+      },
+      {
+        "role": "user",
+        "time": 1732552801737,
+        "endTime": 1732552809797,
+        "message": "Avatar h is an AI native personal health record. It helps patients coordinate care, get health insights, and find and apply for financial assistance.",
+        "duration": 7250.0009765625,
+        "secondsFromStart": 3.48
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552809924,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 11.947
+      },
+      {
+        "role": "user",
+        "time": 1732552809957,
+        "endTime": 1732552813427,
+        "message": "Like having a patient advocate in your pocket that knows everything about you.",
+        "duration": 3470,
+        "secondsFromStart": 11.7
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552810925,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 12.948
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552811924,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 13.947
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552812924,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 14.947
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552813920,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 15.943
+      },
+      {
+        "role": "bot",
+        "time": 1732552814327,
+        "source": "",
+        "endTime": 1732552814997,
+        "message": "Who is",
+        "duration": 670,
+        "secondsFromStart": 16.07
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552814926,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 16.949
+      },
+      {
+        "role": "bot",
+        "time": 1732552815717,
+        "source": "",
+        "endTime": 1732552817177,
+        "message": "who would use your product?",
+        "duration": 1460,
+        "secondsFromStart": 17.46
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552815925,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 17.948
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552816922,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 18.945
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552817922,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 19.945
+      },
+      {
+        "role": "user",
+        "time": 1732552818197,
+        "endTime": 1732552823027,
+        "message": "We think the people who would use our product are those who want a patient advocate but cannot afford them.",
+        "duration": 4830,
+        "secondsFromStart": 19.94
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552818919,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 20.942
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552819927,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 21.95
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552820922,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 22.945
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552821928,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 23.951
+      },
+      {
+        "role": "user",
+        "time": 1732552823187,
+        "endTime": 1732552827547,
+        "message": "Patient advocates get paid a hundred to 400 dollars an hour for the services that we would provide.",
+        "duration": 4360,
+        "secondsFromStart": 24.93
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552826222,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 28.245
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552827218,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 29.241
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552828218,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 30.241
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552829224,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 31.247
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552830217,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 32.24
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552831220,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 33.243
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552832221,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 34.244
+      },
+      {
+        "role": "bot",
+        "time": 1732552832647,
+        "source": "",
+        "endTime": 1732552835947,
+        "message": "How do you plan to monetize this service and keep it affordable for users?",
+        "duration": 3300,
+        "secondsFromStart": 34.39
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552833222,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 35.245
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552834220,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 36.243
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552835223,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 37.246
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552836227,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 38.25
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552837222,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 39.245
+      },
+      {
+        "role": "user",
+        "time": 1732552837687,
+        "endTime": 1732552838387,
+        "message": "When it comes",
+        "duration": 700,
+        "secondsFromStart": 39.43
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552838226,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 40.249
+      },
+      {
+        "role": "user",
+        "time": 1732552838387,
+        "endTime": 1732552846337,
+        "message": "to financial assistance, which is our initial wedge, we wanna do this based off of usage based pricing. So this means the amount of applications that our app",
+        "duration": 7130,
+        "secondsFromStart": 40.13
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552845421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 47.444
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552846419,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 48.442
+      },
+      {
+        "role": "user",
+        "time": 1732552846497,
+        "endTime": 1732552848647,
+        "message": "fills out for you is how much you would pay.",
+        "duration": 2150,
+        "secondsFromStart": 48.24
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552847422,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 49.445
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552848421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 50.444
+      },
+      {
+        "role": "user",
+        "time": 1732552848727,
+        "endTime": 1732552853307,
+        "message": "When it comes to health insights, we wanna make a freemium model with a 10 to 20 dollar a month",
+        "duration": 4580,
+        "secondsFromStart": 50.47
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552849423,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 51.446
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552850423,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 52.446
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552852420,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 54.443
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552853423,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 55.446
+      },
+      {
+        "role": "user",
+        "time": 1732552854167,
+        "endTime": 1732552854667,
+        "message": "subscription.",
+        "duration": 500,
+        "secondsFromStart": 55.91
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552854422,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 56.445
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552855423,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 57.446
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552856423,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 58.446
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552857420,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 59.443
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552858424,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 60.447
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552859420,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 61.443
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552860419,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 62.442
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552861422,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 63.445
+      },
+      {
+        "role": "bot",
+        "time": 1732552861467,
+        "source": "",
+        "endTime": 1732552863247,
+        "message": "Who are your competitors in this space?",
+        "duration": 1780,
+        "secondsFromStart": 63.21
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552862421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 64.444
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552863425,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 65.448
+      },
+      {
+        "role": "user",
+        "time": 1732552864197,
+        "endTime": 1732552866937,
+        "message": "Our primary competitors are Guava Health and Primary",
+        "duration": 2740,
+        "secondsFromStart": 65.94
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552864418,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 66.441
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552865421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 67.444
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552866421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 68.444
+      },
+      {
+        "role": "user",
+        "time": 1732552867327,
+        "endTime": 1732552869587,
+        "message": "These are both personal health record solutions.",
+        "duration": 2260,
+        "secondsFromStart": 69.07
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552867429,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 69.452
+      },
+      {
+        "role": "user",
+        "time": 1732552869747.005,
+        "endTime": 1732552874247.005,
+        "message": "However, neither of them focus on finding and applying for financial assistance, which is our wedge.",
+        "duration": 4500,
+        "secondsFromStart": 71.490005
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552872623,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 74.646
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552873625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 75.648
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552874621,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 76.644
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552875622,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 77.645
+      },
+      {
+        "role": "user",
+        "time": 1732552876177,
+        "endTime": 1732552878597.004,
+        "message": "Maybe also, like, not focus on Oh, shit. Yeah.",
+        "duration": 2420.00390625,
+        "secondsFromStart": 77.92
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552876641,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 78.664
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552877625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 79.648
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552878621,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 80.644
+      },
+      {
+        "role": "user",
+        "time": 1732552879197,
+        "endTime": 1732552882077,
+        "message": "Unstructured data. Yeah. I'll mention those 3 in total. Okay.",
+        "duration": 2880,
+        "secondsFromStart": 80.94
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552879621,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 81.644
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552880621,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 82.644
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552881624,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 83.647
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552882624,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 84.647
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552883620,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 85.643
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552884625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 86.648
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552885633,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 87.656
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552886621,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 88.644
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552887621,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 89.644
+      },
+      {
+        "role": "bot",
+        "time": 1732552888586.994,
+        "source": "",
+        "endTime": 1732552890927,
+        "message": "What makes your product different from these competitors?",
+        "duration": 2340.006103515625,
+        "secondsFromStart": 90.329994
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552888627,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 90.65
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552889626,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 91.649
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552890623,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 92.646
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552891628,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 93.651
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552892629,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 94.652
+      },
+      {
+        "role": "user",
+        "time": 1732552893437,
+        "endTime": 1732552897447,
+        "message": "Uh, 3 things. The first is we're the only ones that focus on finding and applying for financial",
+        "duration": 4010,
+        "secondsFromStart": 95.18
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552893623,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 95.646
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552894625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 96.648
+      },
+      {
+        "role": "user",
+        "time": 1732552897607.006,
+        "endTime": 1732552900747,
+        "message": "assistance. Uh, the second is, um, for",
+        "duration": 2679.9951171875,
+        "secondsFromStart": 99.350006
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552900719,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 102.742
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552901721,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 103.744
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552902723,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 104.746
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552903725,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 105.748
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552904722,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 106.745
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552905717,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 107.74
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552906721,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 108.744
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1732552907719,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 109.742
+      }
+    ],
+    "messagesOpenAIFormatted": [
+      {
+        "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does AvatarH do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company AI-native personal health record. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "role": "system"
+      },
+      {
+        "content": "What does Avatar do?",
+        "role": "assistant"
+      },
+      {
+        "content": "Avatar h is an AI native personal health record. It helps patients coordinate care, get health insights, and find and apply for financial assistance. Like having a patient advocate in your pocket that knows everything about you.",
+        "role": "user"
+      },
+      {
+        "content": "Who is who would use your product?",
+        "role": "assistant"
+      },
+      {
+        "content": "We think the people who would use our product are those who want a patient advocate but cannot afford them. Patient advocates get paid a hundred to 400 dollars an hour for the services that we would provide.",
+        "role": "user"
+      },
+      {
+        "content": "How do you plan to monetize this service and keep it affordable for users?",
+        "role": "assistant"
+      },
+      {
+        "content": "When it comes to financial assistance, which is our initial wedge, we wanna do this based off of usage based pricing. So this means the amount of applications that our app fills out for you is how much you would pay. When it comes to health insights, we wanna make a freemium model with a 10 to 20 dollar a month subscription.",
+        "role": "user"
+      },
+      {
+        "content": "Who are your competitors in this space?",
+        "role": "assistant"
+      },
+      {
+        "content": "Our primary competitors are Guava Health and Primary These are both personal health record solutions. However, neither of them focus on finding and applying for financial assistance, which is our wedge. Maybe also, like, not focus on Oh, shit. Yeah. Unstructured data. Yeah. I'll mention those 3 in total. Okay.",
+        "role": "user"
+      },
+      {
+        "content": "What makes your product different from these competitors?",
+        "role": "assistant"
+      },
+      {
+        "content": "Uh, 3 things. The first is we're the only ones that focus on finding and applying for financial assistance. Uh, the second is, um, for",
+        "role": "user"
+      }
+    ],
+    "transcript": "AI: What does Avatar do?\nUser: Avatar h is an AI native personal health record. It helps patients coordinate care, get health insights, and find and apply for financial assistance.\nUser: Like having a patient advocate in your pocket that knows everything about you.\nAI: Who is\nAI: who would use your product?\nUser: We think the people who would use our product are those who want a patient advocate but cannot afford them.\nUser: Patient advocates get paid a hundred to 400 dollars an hour for the services that we would provide.\nAI: How do you plan to monetize this service and keep it affordable for users?\nUser: When it comes\nUser: to financial assistance, which is our initial wedge, we wanna do this based off of usage based pricing. So this means the amount of applications that our app\nUser: fills out for you is how much you would pay.\nUser: When it comes to health insights, we wanna make a freemium model with a 10 to 20 dollar a month\nUser: subscription.\nAI: Who are your competitors in this space?\nUser: Our primary competitors are Guava Health and Primary\nUser: These are both personal health record solutions.\nUser: However, neither of them focus on finding and applying for financial assistance, which is our wedge.\nUser: Maybe also, like, not focus on Oh, shit. Yeah.\nUser: Unstructured data. Yeah. I'll mention those 3 in total. Okay.\nAI: What makes your product different from these competitors?\nUser: Uh, 3 things. The first is we're the only ones that focus on finding and applying for financial\nUser: assistance. Uh, the second is, um, for\n"
+  },
+  "costs": [
+    {
+      "cost": 0.01886712,
+      "type": "transcriber",
+      "minutes": 1.7866333333333333,
+      "transcriber": {
+        "model": "nova-2",
+        "provider": "deepgram"
+      }
+    },
+    {
+      "cost": 0.20253,
+      "type": "model",
+      "model": {
+        "model": "gpt-4",
+        "provider": "openai"
+      },
+      "promptTokens": 43866,
+      "completionTokens": 255
+    },
+    {
+      "cost": 0,
+      "type": "voice",
+      "voice": {
+        "voiceId": "5v8WYXwPfkcp3o7efDZt",
+        "provider": "11labs"
+      },
+      "characters": 1322
+    },
+    {
+      "cost": 0.085395,
+      "type": "vapi",
+      "minutes": 1.7079,
+      "subType": "normal"
+    },
+    {
+      "cost": 0.002403,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "summary",
+      "promptTokens": 436,
+      "completionTokens": 73
+    },
+    {
+      "cost": 0.00567,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "successEvaluation",
+      "promptTokens": 1870,
+      "completionTokens": 4
+    }
+  ],
+  "monitor": {
+    "listenUrl": "wss://phone-call-websocket.aws-us-west-2-backend-production3.vapi.ai/1e6627c4-23dc-4ad8-9a51-b6ae01e49555/listen",
+    "controlUrl": "https://phone-call-websocket.aws-us-west-2-backend-production3.vapi.ai/1e6627c4-23dc-4ad8-9a51-b6ae01e49555/control"
+  },
+  "transport": {
+    "assistantVideoEnabled": false
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "id": "ccb34629-2b39-491b-88c9-955771abdf22",
+  "type": "webCall",
+  "startedAt": "2024-09-13T18:37:51.108Z",
+  "endedAt": "2024-09-13T18:38:20.482Z",
+  "transcript": "AI: What does medleads dot ai do?\nUser: Hey. Great to meet you guys.\nUser: Uh, Medleave dot ai is a\nUser: platform for medical sales lead generation\nUser: and eventually, it will be an end to end medical sales workflow automation suite.\n",
+  "recordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/ccb34629-2b39-491b-88c9-955771abdf22-1726252702992-2eacce2a-eb07-434e-872e-ef405d301b01-mono.wav",
+  "summary": "Medleads.ai is a platform for medical sales lead generation. The company aims to expand its services to become a comprehensive end-to-end medical sales workflow automation suite in the future.",
+  "createdAt": "2024-09-13T18:37:49.199Z",
+  "updatedAt": "2024-09-13T18:38:24.997Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.1844,
+  "webCallUrl": "https://vapi.daily.co/6d74UdaJLxpquQ6Oj32J",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does medleads.ai do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company medical sales lead generation. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does medleads.ai do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1726252671076,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does medleads.ai do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company medical sales lead generation. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1726252672414,
+      "source": "",
+      "endTime": 1726252674024,
+      "message": "What does medleads dot ai do?",
+      "duration": 1610,
+      "secondsFromStart": 1.04
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252674626,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 3.55
+    },
+    {
+      "role": "user",
+      "time": 1726252675194,
+      "endTime": 1726252676574,
+      "message": "Hey. Great to meet you guys.",
+      "duration": 1380,
+      "secondsFromStart": 3.82
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252675625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 4.549
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252676636,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 5.56
+    },
+    {
+      "role": "user",
+      "time": 1726252677374,
+      "endTime": 1726252679874,
+      "message": "Uh, Medleave dot ai is a",
+      "duration": 2500,
+      "secondsFromStart": 6
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252677631,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 6.555
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252678632,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 7.556
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252679628,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 8.552
+    },
+    {
+      "role": "user",
+      "time": 1726252680404,
+      "endTime": 1726252682354.0005,
+      "message": "platform for medical sales lead generation",
+      "duration": 1950.00048828125,
+      "secondsFromStart": 9.03
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252680625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 9.549
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252681628,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.552
+    },
+    {
+      "role": "user",
+      "time": 1726252682454,
+      "endTime": 1726252686114,
+      "message": "and eventually, it will be an end to end medical sales workflow automation suite.",
+      "duration": 3660,
+      "secondsFromStart": 11.08
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252682625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.549
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252683626,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.55
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252684625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.549
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252685628,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 14.552
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252686627,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.551
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252687629,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.553
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252688628,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.552
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252689626,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.55
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252690629,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.553
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252691625,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.549
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252692630,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.554
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252693631,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.555
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252694632,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.556
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252695626,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 24.55
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252696623,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 25.547
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252697643,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.567
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252698624,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.548
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1726252699630,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.554
+    }
+  ],
+  "stereoRecordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/ccb34629-2b39-491b-88c9-955771abdf22-1726252702993-221ef89b-75d9-4030-9cfb-c63c32cfe57d-stereo.wav",
+  "costBreakdown": {
+    "stt": 0.0054,
+    "llm": 0.1488,
+    "tts": 0,
+    "vapi": 0.0245,
+    "total": 0.1844,
+    "llmPromptTokens": 29093,
+    "llmCompletionTokens": 221,
+    "ttsCharacters": 1025,
+    "analysisCostBreakdown": {
+      "summary": 0.001,
+      "structuredData": 0,
+      "successEvaluation": 0.0047,
+      "summaryPromptTokens": 118,
+      "summaryCompletionTokens": 42,
+      "structuredDataPromptTokens": 0,
+      "successEvaluationPromptTokens": 1551,
+      "structuredDataCompletionTokens": 0,
+      "successEvaluationCompletionTokens": 4
+    }
+  },
+  "analysis": {
+    "summary": "Medleads.ai is a platform for medical sales lead generation. The company aims to expand its services to become a comprehensive end-to-end medical sales workflow automation suite in the future.",
+    "successEvaluation": "false"
+  },
+  "artifact": {
+    "recordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/ccb34629-2b39-491b-88c9-955771abdf22-1726252702992-2eacce2a-eb07-434e-872e-ef405d301b01-mono.wav",
+    "stereoRecordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/ccb34629-2b39-491b-88c9-955771abdf22-1726252702993-221ef89b-75d9-4030-9cfb-c63c32cfe57d-stereo.wav",
+    "messages": [
+      {
+        "role": "system",
+        "time": 1726252671076,
+        "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does medleads.ai do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company medical sales lead generation. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "time": 1726252672414,
+        "source": "",
+        "endTime": 1726252674024,
+        "message": "What does medleads dot ai do?",
+        "duration": 1610,
+        "secondsFromStart": 1.04
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252674626,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 3.55
+      },
+      {
+        "role": "user",
+        "time": 1726252675194,
+        "endTime": 1726252676574,
+        "message": "Hey. Great to meet you guys.",
+        "duration": 1380,
+        "secondsFromStart": 3.82
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252675625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 4.549
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252676636,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 5.56
+      },
+      {
+        "role": "user",
+        "time": 1726252677374,
+        "endTime": 1726252679874,
+        "message": "Uh, Medleave dot ai is a",
+        "duration": 2500,
+        "secondsFromStart": 6
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252677631,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 6.555
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252678632,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 7.556
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252679628,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 8.552
+      },
+      {
+        "role": "user",
+        "time": 1726252680404,
+        "endTime": 1726252682354.0005,
+        "message": "platform for medical sales lead generation",
+        "duration": 1950.00048828125,
+        "secondsFromStart": 9.03
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252680625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 9.549
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252681628,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 10.552
+      },
+      {
+        "role": "user",
+        "time": 1726252682454,
+        "endTime": 1726252686114,
+        "message": "and eventually, it will be an end to end medical sales workflow automation suite.",
+        "duration": 3660,
+        "secondsFromStart": 11.08
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252682625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 11.549
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252683626,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 12.55
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252684625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 13.549
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252685628,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 14.552
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252686627,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 15.551
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252687629,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 16.553
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252688628,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 17.552
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252689626,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 18.55
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252690629,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 19.553
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252691625,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 20.549
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252692630,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 21.554
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252693631,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 22.555
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252694632,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 23.556
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252695626,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 24.55
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252696623,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 25.547
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252697643,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 26.567
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252698624,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 27.548
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1726252699630,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 28.554
+      }
+    ],
+    "messagesOpenAIFormatted": [
+      {
+        "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does medleads.ai do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company medical sales lead generation. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "role": "system"
+      },
+      {
+        "content": "What does medleads dot ai do?",
+        "role": "assistant"
+      },
+      {
+        "content": "Hey. Great to meet you guys. Uh, Medleave dot ai is a platform for medical sales lead generation and eventually, it will be an end to end medical sales workflow automation suite.",
+        "role": "user"
+      }
+    ],
+    "transcript": "AI: What does medleads dot ai do?\nUser: Hey. Great to meet you guys.\nUser: Uh, Medleave dot ai is a\nUser: platform for medical sales lead generation\nUser: and eventually, it will be an end to end medical sales workflow automation suite.\n"
+  },
+  "costs": [
+    {
+      "cost": 0.00541613,
+      "type": "transcriber",
+      "minutes": 0.5571,
+      "transcriber": {
+        "model": "nova-2",
+        "provider": "deepgram"
+      }
+    },
+    {
+      "cost": 0.14878,
+      "type": "model",
+      "model": {
+        "model": "gpt-4",
+        "provider": "openai"
+      },
+      "promptTokens": 29093,
+      "completionTokens": 221
+    },
+    {
+      "cost": 0,
+      "type": "voice",
+      "voice": {
+        "voiceId": "5v8WYXwPfkcp3o7efDZt",
+        "provider": "11labs"
+      },
+      "characters": 1025
+    },
+    {
+      "cost": 0.02448,
+      "type": "vapi",
+      "minutes": 0.4896
+    },
+    {
+      "cost": 0.000984,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "summary",
+      "promptTokens": 118,
+      "completionTokens": 42
+    },
+    {
+      "cost": 0.004713,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "successEvaluation",
+      "promptTokens": 1551,
+      "completionTokens": 4
+    }
+  ],
+  "monitor": {
+    "listenUrl": "wss://aws-us-west-2-production1-phone-call-websocket.vapi.ai/ccb34629-2b39-491b-88c9-955771abdf22/transport",
+    "controlUrl": "https://aws-us-west-2-production1-phone-call-websocket.vapi.ai/ccb34629-2b39-491b-88c9-955771abdf22/control"
+  }
+}

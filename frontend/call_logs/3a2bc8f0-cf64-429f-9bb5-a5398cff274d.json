@@ -1,0 +1,795 @@
+{
+  "id": "3a2bc8f0-cf64-429f-9bb5-a5398cff274d",
+  "type": "webCall",
+  "startedAt": "2024-08-27T19:07:28.498Z",
+  "endedAt": "2024-08-27T19:08:19.340Z",
+  "transcript": "AI: What does Wager do?\nUser: We're providing a platform\nUser: allows gamers to bet money on their gaming skills.\nAI: Interesting. How do you ensure the fairness and security of these wagers?\nUser: Players just play the games they are used to,\nUser: and the games ensure integrity\nUser: and fairness and cheap prevention by themselves. So we just provide\nUser: the matches and the exchange of money\n",
+  "recordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/3a2bc8f0-cf64-429f-9bb5-a5398cff274d-1724785701847-5d23f9bc-8ac1-4ab5-a145-b73aed7c9e7b-mono.wav",
+  "summary": "Wager is a platform that enables gamers to bet money on their own gaming skills. The company facilitates matches and handles financial transactions, while relying on the games themselves to ensure integrity, fairness, and cheating prevention.",
+  "createdAt": "2024-08-27T19:07:17.157Z",
+  "updatedAt": "2024-08-27T19:08:23.935Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.1218,
+  "webCallUrl": "https://vapi.daily.co/uPLopIP4nuaErNkpFiWb",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Wager do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Online Poker for Popular Video Games. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does Wager do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1724785648445,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Wager do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Online Poker for Popular Video Games. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1724785650479,
+      "source": "",
+      "endTime": 1724785651679,
+      "message": "What does Wager do?",
+      "secondsFromStart": 1.76
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785652409,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 3.964
+    },
+    {
+      "role": "user",
+      "time": 1724785653339,
+      "endTime": 1724785654799,
+      "message": "We're providing a platform",
+      "duration": 3.03,
+      "secondsFromStart": 4.62
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785653434,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 4.989
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785654410,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 5.965
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785655411,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 6.966
+    },
+    {
+      "role": "user",
+      "time": 1724785655978.9998,
+      "endTime": 1724785658959,
+      "message": "allows gamers to bet money on their gaming skills.",
+      "duration": 4.52,
+      "secondsFromStart": 7.2599998
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785656413,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 7.968
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785657409,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 8.964
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785658408,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 9.963
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785659421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.976
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785660418,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.973
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785661454,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.009
+    },
+    {
+      "role": "bot",
+      "time": 1724785663919,
+      "source": "",
+      "endTime": 1724785667219,
+      "message": "Interesting. How do you ensure the fairness and security of these wagers?",
+      "secondsFromStart": 15.2
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785668289,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.844
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785669315,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.87
+    },
+    {
+      "role": "user",
+      "time": 1724785669739,
+      "endTime": 1724785672359,
+      "message": "Players just play the games they are used to,",
+      "duration": 4.539999,
+      "secondsFromStart": 21.02
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785670367,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.922
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785671288,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.843
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785672288,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.843
+    },
+    {
+      "role": "user",
+      "time": 1724785672918.999,
+      "endTime": 1724785675179,
+      "message": "and the games ensure integrity",
+      "duration": 3.3199997,
+      "secondsFromStart": 24.199999
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785673289,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 24.844
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785674289,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 25.844
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785675293,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.848
+    },
+    {
+      "role": "user",
+      "time": 1724785675679,
+      "endTime": 1724785680338.999,
+      "message": "and fairness and cheap prevention by themselves. So we just provide",
+      "duration": 4.8600006,
+      "secondsFromStart": 26.96
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785676293,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.848
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785677290,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.845
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785678289,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 29.844
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785679297,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 30.852
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785680327,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.882
+    },
+    {
+      "role": "user",
+      "time": 1724785680539,
+      "endTime": 1724785683679,
+      "message": "the matches and the exchange of money",
+      "duration": 3.1899986,
+      "secondsFromStart": 31.82
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785681375,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 32.93
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785682298,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.853
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785683289,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 34.844
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785684289,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.844
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785685295,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 36.85
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785686295,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 37.85
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785687296,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 38.851
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785688297,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 39.852
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785689292,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 40.847
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785690297,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 41.852
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785691328,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 42.883
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785692383,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 43.938
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785693297,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 44.852
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785694300,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 45.855
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785695297,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 46.852
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785696345,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 47.9
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785697298,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 48.853
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785698296,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 49.851
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724785699297,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 50.852
+    }
+  ],
+  "stereoRecordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/3a2bc8f0-cf64-429f-9bb5-a5398cff274d-1724785701848-ed8cb769-170c-423b-bd53-b4fc79ceb748-stereo.wav",
+  "costBreakdown": {
+    "stt": 0.0089,
+    "llm": 0.0645,
+    "tts": 0,
+    "vapi": 0.0424,
+    "total": 0.1218,
+    "llmPromptTokens": 12686,
+    "llmCompletionTokens": 73,
+    "ttsCharacters": 353,
+    "analysisCostBreakdown": {
+      "summary": 0.0012,
+      "structuredData": 0,
+      "successEvaluation": 0.0048,
+      "summaryPromptTokens": 151,
+      "summaryCompletionTokens": 50,
+      "structuredDataPromptTokens": 0,
+      "successEvaluationPromptTokens": 1585,
+      "structuredDataCompletionTokens": 0,
+      "successEvaluationCompletionTokens": 4
+    }
+  },
+  "analysis": {
+    "summary": "Wager is a platform that enables gamers to bet money on their own gaming skills. The company facilitates matches and handles financial transactions, while relying on the games themselves to ensure integrity, fairness, and cheating prevention.",
+    "successEvaluation": "false"
+  },
+  "artifact": {
+    "messages": [
+      {
+        "role": "system",
+        "time": 1724785648445,
+        "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Wager do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Online Poker for Popular Video Games. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "time": 1724785650479,
+        "source": "",
+        "endTime": 1724785651679,
+        "message": "What does Wager do?",
+        "secondsFromStart": 1.76
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785652409,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 3.964
+      },
+      {
+        "role": "user",
+        "time": 1724785653339,
+        "endTime": 1724785654799,
+        "message": "We're providing a platform",
+        "duration": 3.03,
+        "secondsFromStart": 4.62
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785653434,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 4.989
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785654410,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 5.965
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785655411,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 6.966
+      },
+      {
+        "role": "user",
+        "time": 1724785655978.9998,
+        "endTime": 1724785658959,
+        "message": "allows gamers to bet money on their gaming skills.",
+        "duration": 4.52,
+        "secondsFromStart": 7.2599998
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785656413,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 7.968
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785657409,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 8.964
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785658408,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 9.963
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785659421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 10.976
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785660418,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 11.973
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785661454,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 13.009
+      },
+      {
+        "role": "bot",
+        "time": 1724785663919,
+        "source": "",
+        "endTime": 1724785667219,
+        "message": "Interesting. How do you ensure the fairness and security of these wagers?",
+        "secondsFromStart": 15.2
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785668289,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 19.844
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785669315,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 20.87
+      },
+      {
+        "role": "user",
+        "time": 1724785669739,
+        "endTime": 1724785672359,
+        "message": "Players just play the games they are used to,",
+        "duration": 4.539999,
+        "secondsFromStart": 21.02
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785670367,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 21.922
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785671288,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 22.843
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785672288,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 23.843
+      },
+      {
+        "role": "user",
+        "time": 1724785672918.999,
+        "endTime": 1724785675179,
+        "message": "and the games ensure integrity",
+        "duration": 3.3199997,
+        "secondsFromStart": 24.199999
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785673289,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 24.844
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785674289,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 25.844
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785675293,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 26.848
+      },
+      {
+        "role": "user",
+        "time": 1724785675679,
+        "endTime": 1724785680338.999,
+        "message": "and fairness and cheap prevention by themselves. So we just provide",
+        "duration": 4.8600006,
+        "secondsFromStart": 26.96
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785676293,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 27.848
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785677290,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 28.845
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785678289,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 29.844
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785679297,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 30.852
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785680327,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 31.882
+      },
+      {
+        "role": "user",
+        "time": 1724785680539,
+        "endTime": 1724785683679,
+        "message": "the matches and the exchange of money",
+        "duration": 3.1899986,
+        "secondsFromStart": 31.82
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785681375,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 32.93
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785682298,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 33.853
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785683289,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 34.844
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785684289,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 35.844
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785685295,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 36.85
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785686295,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 37.85
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785687296,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 38.851
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785688297,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 39.852
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785689292,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 40.847
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785690297,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 41.852
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785691328,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 42.883
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785692383,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 43.938
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785693297,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 44.852
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785694300,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 45.855
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785695297,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 46.852
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785696345,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 47.9
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785697298,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 48.853
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785698296,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 49.851
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724785699297,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 50.852
+      }
+    ],
+    "messagesOpenAIFormatted": [
+      {
+        "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Wager do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Online Poker for Popular Video Games. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "role": "system"
+      },
+      {
+        "content": "What does Wager do?",
+        "role": "assistant"
+      },
+      {
+        "content": "We're providing a platform allows gamers to bet money on their gaming skills.",
+        "role": "user"
+      },
+      {
+        "content": "Interesting. How do you ensure the fairness and security of these wagers?",
+        "role": "assistant"
+      },
+      {
+        "content": "Players just play the games they are used to, and the games ensure integrity and fairness and cheap prevention by themselves. So we just provide the matches and the exchange of money",
+        "role": "user"
+      }
+    ]
+  },
+  "costs": [
+    {
+      "cost": 0.00889938,
+      "type": "transcriber",
+      "minutes": 0.9117666666666667,
+      "transcriber": {
+        "model": "nova-2",
+        "provider": "deepgram"
+      }
+    },
+    {
+      "cost": 0.064525,
+      "type": "model",
+      "model": {
+        "model": "gpt-4",
+        "provider": "openai"
+      },
+      "promptTokens": 12686,
+      "completionTokens": 73
+    },
+    {
+      "cost": 0,
+      "type": "voice",
+      "voice": {
+        "voiceId": "5v8WYXwPfkcp3o7efDZt",
+        "provider": "11labs"
+      },
+      "characters": 353
+    },
+    {
+      "cost": 0.04237,
+      "type": "vapi",
+      "minutes": 0.8474
+    },
+    {
+      "cost": 0.001203,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "summary",
+      "promptTokens": 151,
+      "completionTokens": 50
+    },
+    {
+      "cost": 0.004815,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "successEvaluation",
+      "promptTokens": 1585,
+      "completionTokens": 4
+    }
+  ]
+}

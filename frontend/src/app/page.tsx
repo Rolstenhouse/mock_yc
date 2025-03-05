@@ -186,7 +186,7 @@ export default function Home() {
     },
     model: {
       provider: "openai",
-      model: "gpt-4",
+      model: "gpt-4ow",
       messages: [
         {
           role: "system",

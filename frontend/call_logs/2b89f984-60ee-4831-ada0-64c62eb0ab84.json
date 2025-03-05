@@ -1,0 +1,755 @@
+{
+  "id": "2b89f984-60ee-4831-ada0-64c62eb0ab84",
+  "type": "webCall",
+  "startedAt": "2024-08-25T07:41:17.477Z",
+  "endedAt": "2024-08-25T07:42:09.084Z",
+  "transcript": "AI: What does upselling do?\nUser: I'll finish.\nUser: Enables cloud based management without technology.\nUser: Imagine to save functions with single command and use them anywhere.\nUser: We made this with isolation and portability of blockers.\nUser: With Afsonic, all documentation and release notes\nUser: the code base are generated automatically\nUser: is capable of tracking performance metrics and generating code based maps.\nAI: Can you got it. How exactly does your product work?\nAI: How\nUser: We make we make sense. Is it\nAI: what problem are you specifically solving for data teams?\n",
+  "recordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/2b89f984-60ee-4831-ada0-64c62eb0ab84-1724571731585-a87d248f-6d7d-493a-acf2-cc37d93f425c-mono.wav",
+  "summary": "The call discusses a product called Afsonic, which appears to be a cloud-based management tool for data teams. It offers features like automatic documentation generation, performance tracking, and code-based mapping, aiming to improve efficiency and portability in data operations. The AI asks for clarification on how the product works and what specific problems it solves for data teams.",
+  "createdAt": "2024-08-25T07:41:09.692Z",
+  "updatedAt": "2024-08-25T07:42:13.808Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.2287,
+  "webCallUrl": "https://vapi.daily.co/VLqLeZGwhxhton4m4t59",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Upsonic do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Non-Git Codebase for Data teams. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does Upsonic do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1724571677464,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Upsonic do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Non-Git Codebase for Data teams. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1724571679416,
+      "source": "",
+      "endTime": 1724571680716,
+      "message": "What does upselling do?",
+      "secondsFromStart": 1.8399999
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571681772,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 4.308
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571682772,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 5.308
+    },
+    {
+      "role": "user",
+      "time": 1724571683366,
+      "endTime": 1724571684105.9998,
+      "message": "I'll finish.",
+      "duration": 2.5900002,
+      "secondsFromStart": 5.79
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571683772,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 6.308
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571684771,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 7.307
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571685800,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 8.336
+    },
+    {
+      "role": "user",
+      "time": 1724571686436,
+      "endTime": 1724571688856,
+      "message": "Enables cloud based management without technology.",
+      "duration": 3.65,
+      "secondsFromStart": 8.86
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571688421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.957
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571689371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.907
+    },
+    {
+      "role": "user",
+      "time": 1724571689606,
+      "endTime": 1724571693046,
+      "message": "Imagine to save functions with single command and use them anywhere.",
+      "duration": 3.8400002,
+      "secondsFromStart": 12.03
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571690371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.907
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571691369,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.905
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571693370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.906
+    },
+    {
+      "role": "user",
+      "time": 1724571693446,
+      "endTime": 1724571696186,
+      "message": "We made this with isolation and portability of blockers.",
+      "duration": 3.1899996,
+      "secondsFromStart": 15.87
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571694371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.907
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571695370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.906
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571696371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.907
+    },
+    {
+      "role": "user",
+      "time": 1724571696636,
+      "endTime": 1724571699256,
+      "message": "With Afsonic, all documentation and release notes",
+      "duration": 3.0200005,
+      "secondsFromStart": 19.06
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571697371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.907
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571698383,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.919
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571699431,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.967
+    },
+    {
+      "role": "user",
+      "time": 1724571699496,
+      "endTime": 1724571700876.001,
+      "message": "the code base are generated automatically",
+      "duration": 2.3099995,
+      "secondsFromStart": 21.92
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571700370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.906
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571701370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.906
+    },
+    {
+      "role": "user",
+      "time": 1724571701966,
+      "endTime": 1724571705476,
+      "message": "is capable of tracking performance metrics and generating code based maps.",
+      "duration": 3.9099998,
+      "secondsFromStart": 24.39
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571702383,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 24.919
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571703370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 25.906
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571704371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.907
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571705369,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.905
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571706371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.907
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571707369,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 29.905
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571708370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 30.906
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571709393,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.929
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571710441,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 32.977
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571711371,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.907
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571713370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.906
+    },
+    {
+      "role": "bot",
+      "time": 1724571713986,
+      "source": "",
+      "endTime": 1724571717416,
+      "message": "Can you got it. How exactly does your product work?",
+      "secondsFromStart": 36.41
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571718829,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 41.365
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571719769,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 42.305
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571720769,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 43.305
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1724571722771,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 45.307
+    },
+    {
+      "role": "bot",
+      "time": 1724571723396,
+      "source": "",
+      "endTime": 1724571723896,
+      "message": "How",
+      "secondsFromStart": 45.82
+    },
+    {
+      "role": "user",
+      "time": 1724571724296,
+      "endTime": 1724571726946,
+      "message": "We make we make sense. Is it",
+      "duration": 2.6499977,
+      "secondsFromStart": 46.72
+    },
+    {
+      "role": "bot",
+      "time": 1724571724916,
+      "source": "",
+      "endTime": 1724571727566,
+      "message": "what problem are you specifically solving for data teams?",
+      "secondsFromStart": 47.34
+    }
+  ],
+  "stereoRecordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/2b89f984-60ee-4831-ada0-64c62eb0ab84-1724571731586-87584705-4741-467d-af89-3979f72946f5-stereo.wav",
+  "costBreakdown": {
+    "stt": 0.0091,
+    "llm": 0.1699,
+    "tts": 0,
+    "vapi": 0.043,
+    "total": 0.2287,
+    "llmPromptTokens": 33297,
+    "llmCompletionTokens": 228,
+    "ttsCharacters": 1180,
+    "analysisCostBreakdown": {
+      "summary": 0.0018,
+      "structuredData": 0,
+      "successEvaluation": 0.005,
+      "summaryPromptTokens": 192,
+      "summaryCompletionTokens": 79,
+      "structuredDataPromptTokens": 0,
+      "successEvaluationPromptTokens": 1630,
+      "structuredDataCompletionTokens": 0,
+      "successEvaluationCompletionTokens": 4
+    }
+  },
+  "analysis": {
+    "summary": "The call discusses a product called Afsonic, which appears to be a cloud-based management tool for data teams. It offers features like automatic documentation generation, performance tracking, and code-based mapping, aiming to improve efficiency and portability in data operations. The AI asks for clarification on how the product works and what specific problems it solves for data teams.",
+    "successEvaluation": "false"
+  },
+  "artifact": {
+    "messages": [
+      {
+        "role": "system",
+        "time": 1724571677464,
+        "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Upsonic do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Non-Git Codebase for Data teams. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "time": 1724571679416,
+        "source": "",
+        "endTime": 1724571680716,
+        "message": "What does upselling do?",
+        "secondsFromStart": 1.8399999
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571681772,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 4.308
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571682772,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 5.308
+      },
+      {
+        "role": "user",
+        "time": 1724571683366,
+        "endTime": 1724571684105.9998,
+        "message": "I'll finish.",
+        "duration": 2.5900002,
+        "secondsFromStart": 5.79
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571683772,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 6.308
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571684771,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 7.307
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571685800,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 8.336
+      },
+      {
+        "role": "user",
+        "time": 1724571686436,
+        "endTime": 1724571688856,
+        "message": "Enables cloud based management without technology.",
+        "duration": 3.65,
+        "secondsFromStart": 8.86
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571688421,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 10.957
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571689371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 11.907
+      },
+      {
+        "role": "user",
+        "time": 1724571689606,
+        "endTime": 1724571693046,
+        "message": "Imagine to save functions with single command and use them anywhere.",
+        "duration": 3.8400002,
+        "secondsFromStart": 12.03
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571690371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 12.907
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571691369,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 13.905
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571693370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 15.906
+      },
+      {
+        "role": "user",
+        "time": 1724571693446,
+        "endTime": 1724571696186,
+        "message": "We made this with isolation and portability of blockers.",
+        "duration": 3.1899996,
+        "secondsFromStart": 15.87
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571694371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 16.907
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571695370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 17.906
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571696371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 18.907
+      },
+      {
+        "role": "user",
+        "time": 1724571696636,
+        "endTime": 1724571699256,
+        "message": "With Afsonic, all documentation and release notes",
+        "duration": 3.0200005,
+        "secondsFromStart": 19.06
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571697371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 19.907
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571698383,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 20.919
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571699431,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 21.967
+      },
+      {
+        "role": "user",
+        "time": 1724571699496,
+        "endTime": 1724571700876.001,
+        "message": "the code base are generated automatically",
+        "duration": 2.3099995,
+        "secondsFromStart": 21.92
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571700370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 22.906
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571701370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 23.906
+      },
+      {
+        "role": "user",
+        "time": 1724571701966,
+        "endTime": 1724571705476,
+        "message": "is capable of tracking performance metrics and generating code based maps.",
+        "duration": 3.9099998,
+        "secondsFromStart": 24.39
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571702383,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 24.919
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571703370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 25.906
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571704371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 26.907
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571705369,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 27.905
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571706371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 28.907
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571707369,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 29.905
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571708370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 30.906
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571709393,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 31.929
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571710441,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 32.977
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571711371,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 33.907
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571713370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 35.906
+      },
+      {
+        "role": "bot",
+        "time": 1724571713986,
+        "source": "",
+        "endTime": 1724571717416,
+        "message": "Can you got it. How exactly does your product work?",
+        "secondsFromStart": 36.41
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571718829,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 41.365
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571719769,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 42.305
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571720769,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 43.305
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1724571722771,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 45.307
+      },
+      {
+        "role": "bot",
+        "time": 1724571723396,
+        "source": "",
+        "endTime": 1724571723896,
+        "message": "How",
+        "secondsFromStart": 45.82
+      },
+      {
+        "role": "user",
+        "time": 1724571724296,
+        "endTime": 1724571726946,
+        "message": "We make we make sense. Is it",
+        "duration": 2.6499977,
+        "secondsFromStart": 46.72
+      },
+      {
+        "role": "bot",
+        "time": 1724571724916,
+        "source": "",
+        "endTime": 1724571727566,
+        "message": "what problem are you specifically solving for data teams?",
+        "secondsFromStart": 47.34
+      }
+    ],
+    "messagesOpenAIFormatted": [
+      {
+        "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Upsonic do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Non-Git Codebase for Data teams. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "role": "system"
+      },
+      {
+        "content": "What does upselling do?",
+        "role": "assistant"
+      },
+      {
+        "content": "I'll finish. Enables cloud based management without technology. Imagine to save functions with single command and use them anywhere. We made this with isolation and portability of blockers. With Afsonic, all documentation and release notes the code base are generated automatically is capable of tracking performance metrics and generating code based maps.",
+        "role": "user"
+      },
+      {
+        "content": "Can you got it. How exactly does your product work? How",
+        "role": "assistant"
+      },
+      {
+        "content": "We make we make sense. Is it",
+        "role": "user"
+      },
+      {
+        "content": "what problem are you specifically solving for data teams?",
+        "role": "assistant"
+      }
+    ]
+  },
+  "costs": [
+    {
+      "cost": 0.00911286,
+      "type": "transcriber",
+      "minutes": 0.9315166666666667,
+      "transcriber": {
+        "model": "nova-2",
+        "provider": "deepgram"
+      }
+    },
+    {
+      "cost": 0.169905,
+      "type": "model",
+      "model": {
+        "model": "gpt-4",
+        "provider": "openai"
+      },
+      "promptTokens": 33297,
+      "completionTokens": 228
+    },
+    {
+      "cost": 0,
+      "type": "voice",
+      "voice": {
+        "voiceId": "5v8WYXwPfkcp3o7efDZt",
+        "provider": "11labs"
+      },
+      "characters": 1180
+    },
+    {
+      "cost": 0.043005,
+      "type": "vapi",
+      "minutes": 0.8601
+    },
+    {
+      "cost": 0.001761,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "summary",
+      "promptTokens": 192,
+      "completionTokens": 79
+    },
+    {
+      "cost": 0.00495,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "successEvaluation",
+      "promptTokens": 1630,
+      "completionTokens": 4
+    }
+  ]
+}

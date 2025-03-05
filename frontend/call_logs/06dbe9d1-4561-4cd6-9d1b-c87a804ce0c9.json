@@ -1,0 +1,325 @@
+{
+  "id": "06dbe9d1-4561-4cd6-9d1b-c87a804ce0c9",
+  "type": "webCall",
+  "startedAt": "2024-05-07T06:33:55.286Z",
+  "endedAt": "2024-05-07T06:34:35.759Z",
+  "transcript": "AI: What does SIF AI do?\nUser: Synthai is a platform that sources vets and matches\nUser: Talent.\nUser: Of fast growing companies using AI.\nUser: Okay.\nUser: All good.\nUser: Good.\n",
+  "recordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/1715063676377-faade29d-174b-42a5-b736-0dfe47a70e19.wav",
+  "summary": "In the conversation, the AI inquires about the functions of Synthai (presumably SIF AI), to which the user explains that it is a platform that utilizes AI to source, vet, and match talent for fast-growing companies. The user confirms understanding and satisfaction with the explanation, indicating that everything is okay and good.",
+  "createdAt": "2024-05-07T06:33:50.556Z",
+  "updatedAt": "2024-05-07T06:34:39.432Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.095097,
+  "webCallUrl": "https://vapi.daily.co/ixlZ7jFI10RsINncTkrR",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does siff AI do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company platform that sources, vets and matches the talent. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does siff AI do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1715063635253,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does siff AI do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company platform that sources, vets and matches the talent. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1715063636634,
+      "source": "",
+      "endTime": 1715063637974,
+      "message": "What does SIF AI do?",
+      "secondsFromStart": 1.28
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063638964,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 3.711
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063639964,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 4.711
+    },
+    {
+      "role": "user",
+      "time": 1715063640024,
+      "endTime": 1715063643724,
+      "message": "Synthai is a platform that sources vets and matches",
+      "duration": 4.46,
+      "secondsFromStart": 4.67
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063640964,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 5.711
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063641963,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 6.71
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063642967,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 7.714
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063643976,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 8.723
+    },
+    {
+      "role": "user",
+      "time": 1715063644114,
+      "endTime": 1715063644464,
+      "message": "Talent.",
+      "duration": 0.6999998,
+      "secondsFromStart": 8.76
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063644972,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 9.719
+    },
+    {
+      "role": "user",
+      "time": 1715063645024,
+      "endTime": 1715063647174,
+      "message": "Of fast growing companies using AI.",
+      "duration": 2.71,
+      "secondsFromStart": 9.67
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063645970,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.717
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063646970,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.717
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063647971,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.718
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063648973,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.72
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063649979,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 14.726
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063650977,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.724
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063651974,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.721
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063652977,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.724
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063653979,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.726
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063654981,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.728
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063655986,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.733
+    },
+    {
+      "role": "user",
+      "time": 1715063656953.998,
+      "endTime": 1715063657453.998,
+      "message": "Okay.",
+      "duration": 1.3700008,
+      "secondsFromStart": 21.599998
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063656981,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.728
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063657996,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.743
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063658984,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.731
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063659984,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 24.731
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063660983,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 25.73
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063661985,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.732
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063662988,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.735
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063663985,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.732
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063664986,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 29.733
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063665990,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 30.737
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063666987,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.734
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063667989,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 32.736
+    },
+    {
+      "role": "user",
+      "time": 1715063668234,
+      "endTime": 1715063669044,
+      "message": "All good.",
+      "duration": 2.6499977,
+      "secondsFromStart": 32.88
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063668994,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.741
+    },
+    {
+      "role": "user",
+      "time": 1715063669389,
+      "endTime": 1715063669734,
+      "message": "Good.",
+      "duration": 0.69000244,
+      "secondsFromStart": 34.035
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063669991,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 34.738
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063670992,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.739
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063671992,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 36.739
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1715063672994,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 37.741
+    }
+  ],
+  "stereoRecordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/1715063676387-478e67d5-4d0d-4c58-a144-783469fbc52f.wav",
+  "costBreakdown": {
+    "stt": 0.006599,
+    "llm": 0.05477,
+    "tts": 0,
+    "vapi": 0.033728,
+    "total": 0.095097,
+    "llmPromptTokens": 5390,
+    "llmCompletionTokens": 29,
+    "ttsCharacters": 123
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "id": "e9ed43dc-fe8f-4305-a2e3-5b83a0102637",
+  "type": "webCall",
+  "startedAt": "2024-10-21T02:46:05.206Z",
+  "endedAt": "2024-10-21T02:46:57.967Z",
+  "transcript": "AI: What does Shop to do?\nUser: Hello. Shopt is a mobile app\nUser: for a hundred percent trustable product ratings and recommendations.\nUser: From your own friends as well as unbeatable promotions from\nUser: up and coming brands. So, basically, when you join the app,\nUser: you're going to be prompted to log in to your Amazon account and your Gmail account.\nUser: From there, we pull in all of your products\nUser: that you've ever purchased, then we can create a virtual collect\nUser: of this and that you can show that to your friends\nUser: Um, but mainly this feeds into the AI algorithm that will\nUser: create that will aggregate recommendations\nUser: of which types of products you and your friends are buying,\nUser: which brands your friends are buying that you might be interested in, as well as\nUser: directly relevant deals to yourself.\n",
+  "recordingUrl": "https://jtuyprjjgxbgmtjiykoa.supabase.co/storage/v1/object/public/recordings/e9ed43dc-fe8f-4305-a2e3-5b83a0102637-1729478820474-d98636e6-afee-4264-92a5-a24f61b6727b-mono.wav",
+  "summary": "Shopt is a mobile app that provides trustworthy product ratings and recommendations based on users' and their friends' purchase history. The app connects to users' Amazon and Gmail accounts to gather product information, creating a virtual collection that can be shared with friends and used by an AI algorithm to generate personalized product recommendations and relevant deals.",
+  "createdAt": "2024-10-21T02:46:02.240Z",
+  "updatedAt": "2024-10-21T02:47:02.720Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.0791,
+  "webCallUrl": "https://vapi.daily.co/d0m5bie4Dl7iOzUZq4ph",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Shoppd do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company app for product recs & unbeatable from friends. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does Shoppd do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1729478762642,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Shoppd do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company app for product recs & unbeatable from friends. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1729478764301,
+      "source": "",
+      "endTime": 1729478765421,
+      "message": "What does Shop to do?",
+      "duration": 1120,
+      "secondsFromStart": 1.36
+    },
+    {
+      "role": "user",
+      "time": 1729478767881,
+      "endTime": 1729478770461,
+      "message": "Hello. Shopt is a mobile app",
+      "duration": 2580,
+      "secondsFromStart": 4.94
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478768368,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 5.726
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478769365,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 6.723
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478770390,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 7.748
+    },
+    {
+      "role": "user",
+      "time": 1729478770840.9995,
+      "endTime": 1729478773821,
+      "message": "for a hundred percent trustable product ratings and recommendations.",
+      "duration": 2980.00048828125,
+      "secondsFromStart": 7.8999996
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478771365,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 8.723
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478772390,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 9.748
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478773372,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.73
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478774368,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.726
+    },
+    {
+      "role": "user",
+      "time": 1729478774691,
+      "endTime": 1729478778471,
+      "message": "From your own friends as well as unbeatable promotions from",
+      "duration": 3780,
+      "secondsFromStart": 11.75
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478775389,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.747
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478776430,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.788
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478777389,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 14.747
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478778384,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.742
+    },
+    {
+      "role": "user",
+      "time": 1729478778471,
+      "endTime": 1729478781581,
+      "message": "up and coming brands. So, basically, when you join the app,",
+      "duration": 3110,
+      "secondsFromStart": 15.53
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478779364,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.722
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478780368,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.726
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478781365,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.723
+    },
+    {
+      "role": "user",
+      "time": 1729478781821,
+      "endTime": 1729478786401,
+      "message": "you're going to be prompted to log in to your Amazon account and your Gmail account.",
+      "duration": 4580,
+      "secondsFromStart": 18.88
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478782367,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.725
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478783392,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.75
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478784364,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.722
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478785372,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.73
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478786362,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.72
+    },
+    {
+      "role": "user",
+      "time": 1729478786651,
+      "endTime": 1729478789151,
+      "message": "From there, we pull in all of your products",
+      "duration": 2500,
+      "secondsFromStart": 23.71
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478787367,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 24.725
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478788378,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 25.736
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478789374,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.732
+    },
+    {
+      "role": "user",
+      "time": 1729478789751,
+      "endTime": 1729478793531,
+      "message": "that you've ever purchased, then we can create a virtual collect",
+      "duration": 3780,
+      "secondsFromStart": 26.81
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478790365,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.723
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478791363,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.721
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478792364,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 29.722
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478793368,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 30.726
+    },
+    {
+      "role": "user",
+      "time": 1729478793611,
+      "endTime": 1729478796831,
+      "message": "of this and that you can show that to your friends",
+      "duration": 3220,
+      "secondsFromStart": 30.67
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478794367,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.725
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478795363,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 32.721
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478796365,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.723
+    },
+    {
+      "role": "user",
+      "time": 1729478797061,
+      "endTime": 1729478801160.997,
+      "message": "Um, but mainly this feeds into the AI algorithm that will",
+      "duration": 4099.9970703125,
+      "secondsFromStart": 34.12
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478797411,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 34.769
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478798367,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.725
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478799367,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 36.725
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478800365,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 37.723
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478801402,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 38.76
+    },
+    {
+      "role": "user",
+      "time": 1729478801981,
+      "endTime": 1729478804000.998,
+      "message": "create that will aggregate recommendations",
+      "duration": 2019.998046875,
+      "secondsFromStart": 39.04
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478802370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 39.728
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478803368,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 40.726
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478804370,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 41.728
+    },
+    {
+      "role": "user",
+      "time": 1729478805241,
+      "endTime": 1729478808541,
+      "message": "of which types of products you and your friends are buying,",
+      "duration": 3300,
+      "secondsFromStart": 42.3
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478805363,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 42.721
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478806372,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 43.73
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478807374,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 44.732
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478808368,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 45.726
+    },
+    {
+      "role": "user",
+      "time": 1729478808861,
+      "endTime": 1729478812800.997,
+      "message": "which brands your friends are buying that you might be interested in, as well as",
+      "duration": 3939.9970703125,
+      "secondsFromStart": 45.92
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478809376,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 46.734
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1729478810366,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 47.724
+    },
+    {
+      "role": "user",
+      "time": 1729478813861,
+      "endTime": 1729478815721,
+      "message": "directly relevant deals to yourself.",
+      "duration": 1860,
+      "secondsFromStart": 50.92
+    }
+  ],
+  "stereoRecordingUrl": "https://jtuyprjjgxbgmtjiykoa.supabase.co/storage/v1/object/public/recordings/e9ed43dc-fe8f-4305-a2e3-5b83a0102637-1729478820475-f20baa7e-5c64-43c4-933c-d11fb12b3774-stereo.wav",
+  "costBreakdown": {
+    "stt": 0.0097,
+    "llm": 0.0185,
+    "tts": 0,
+    "vapi": 0.044,
+    "total": 0.0791,
+    "llmPromptTokens": 3624,
+    "llmCompletionTokens": 25,
+    "ttsCharacters": 244,
+    "analysisCostBreakdown": {
+      "summary": 0.0018,
+      "structuredData": 0,
+      "successEvaluation": 0.0051,
+      "summaryPromptTokens": 251,
+      "summaryCompletionTokens": 70,
+      "structuredDataPromptTokens": 0,
+      "successEvaluationPromptTokens": 1690,
+      "structuredDataCompletionTokens": 0,
+      "successEvaluationCompletionTokens": 4
+    }
+  },
+  "analysis": {
+    "summary": "Shopt is a mobile app that provides trustworthy product ratings and recommendations based on users' and their friends' purchase history. The app connects to users' Amazon and Gmail accounts to gather product information, creating a virtual collection that can be shared with friends and used by an AI algorithm to generate personalized product recommendations and relevant deals.",
+    "successEvaluation": "false"
+  },
+  "artifact": {
+    "recordingUrl": "https://jtuyprjjgxbgmtjiykoa.supabase.co/storage/v1/object/public/recordings/e9ed43dc-fe8f-4305-a2e3-5b83a0102637-1729478820474-d98636e6-afee-4264-92a5-a24f61b6727b-mono.wav",
+    "stereoRecordingUrl": "https://jtuyprjjgxbgmtjiykoa.supabase.co/storage/v1/object/public/recordings/e9ed43dc-fe8f-4305-a2e3-5b83a0102637-1729478820475-f20baa7e-5c64-43c4-933c-d11fb12b3774-stereo.wav",
+    "messages": [
+      {
+        "role": "system",
+        "time": 1729478762642,
+        "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Shoppd do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company app for product recs & unbeatable from friends. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "time": 1729478764301,
+        "source": "",
+        "endTime": 1729478765421,
+        "message": "What does Shop to do?",
+        "duration": 1120,
+        "secondsFromStart": 1.36
+      },
+      {
+        "role": "user",
+        "time": 1729478767881,
+        "endTime": 1729478770461,
+        "message": "Hello. Shopt is a mobile app",
+        "duration": 2580,
+        "secondsFromStart": 4.94
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478768368,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 5.726
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478769365,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 6.723
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478770390,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 7.748
+      },
+      {
+        "role": "user",
+        "time": 1729478770840.9995,
+        "endTime": 1729478773821,
+        "message": "for a hundred percent trustable product ratings and recommendations.",
+        "duration": 2980.00048828125,
+        "secondsFromStart": 7.8999996
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478771365,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 8.723
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478772390,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 9.748
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478773372,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 10.73
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478774368,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 11.726
+      },
+      {
+        "role": "user",
+        "time": 1729478774691,
+        "endTime": 1729478778471,
+        "message": "From your own friends as well as unbeatable promotions from",
+        "duration": 3780,
+        "secondsFromStart": 11.75
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478775389,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 12.747
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478776430,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 13.788
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478777389,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 14.747
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478778384,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 15.742
+      },
+      {
+        "role": "user",
+        "time": 1729478778471,
+        "endTime": 1729478781581,
+        "message": "up and coming brands. So, basically, when you join the app,",
+        "duration": 3110,
+        "secondsFromStart": 15.53
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478779364,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 16.722
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478780368,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 17.726
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478781365,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 18.723
+      },
+      {
+        "role": "user",
+        "time": 1729478781821,
+        "endTime": 1729478786401,
+        "message": "you're going to be prompted to log in to your Amazon account and your Gmail account.",
+        "duration": 4580,
+        "secondsFromStart": 18.88
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478782367,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 19.725
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478783392,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 20.75
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478784364,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 21.722
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478785372,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 22.73
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478786362,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 23.72
+      },
+      {
+        "role": "user",
+        "time": 1729478786651,
+        "endTime": 1729478789151,
+        "message": "From there, we pull in all of your products",
+        "duration": 2500,
+        "secondsFromStart": 23.71
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478787367,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 24.725
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478788378,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 25.736
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478789374,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 26.732
+      },
+      {
+        "role": "user",
+        "time": 1729478789751,
+        "endTime": 1729478793531,
+        "message": "that you've ever purchased, then we can create a virtual collect",
+        "duration": 3780,
+        "secondsFromStart": 26.81
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478790365,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 27.723
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478791363,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 28.721
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478792364,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 29.722
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478793368,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 30.726
+      },
+      {
+        "role": "user",
+        "time": 1729478793611,
+        "endTime": 1729478796831,
+        "message": "of this and that you can show that to your friends",
+        "duration": 3220,
+        "secondsFromStart": 30.67
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478794367,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 31.725
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478795363,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 32.721
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478796365,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 33.723
+      },
+      {
+        "role": "user",
+        "time": 1729478797061,
+        "endTime": 1729478801160.997,
+        "message": "Um, but mainly this feeds into the AI algorithm that will",
+        "duration": 4099.9970703125,
+        "secondsFromStart": 34.12
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478797411,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 34.769
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478798367,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 35.725
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478799367,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 36.725
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478800365,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 37.723
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478801402,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 38.76
+      },
+      {
+        "role": "user",
+        "time": 1729478801981,
+        "endTime": 1729478804000.998,
+        "message": "create that will aggregate recommendations",
+        "duration": 2019.998046875,
+        "secondsFromStart": 39.04
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478802370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 39.728
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478803368,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 40.726
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478804370,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 41.728
+      },
+      {
+        "role": "user",
+        "time": 1729478805241,
+        "endTime": 1729478808541,
+        "message": "of which types of products you and your friends are buying,",
+        "duration": 3300,
+        "secondsFromStart": 42.3
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478805363,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 42.721
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478806372,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 43.73
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478807374,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 44.732
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478808368,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 45.726
+      },
+      {
+        "role": "user",
+        "time": 1729478808861,
+        "endTime": 1729478812800.997,
+        "message": "which brands your friends are buying that you might be interested in, as well as",
+        "duration": 3939.9970703125,
+        "secondsFromStart": 45.92
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478809376,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 46.734
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1729478810366,
+        "result": "The user has spent too long answering the question. Interrupt the conversation.",
+        "secondsFromStart": 47.724
+      },
+      {
+        "role": "user",
+        "time": 1729478813861,
+        "endTime": 1729478815721,
+        "message": "directly relevant deals to yourself.",
+        "duration": 1860,
+        "secondsFromStart": 50.92
+      }
+    ],
+    "messagesOpenAIFormatted": [
+      {
+        "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Shoppd do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company app for product recs & unbeatable from friends. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+        "role": "system"
+      },
+      {
+        "content": "What does Shop to do?",
+        "role": "assistant"
+      },
+      {
+        "content": "Hello. Shopt is a mobile app for a hundred percent trustable product ratings and recommendations. From your own friends as well as unbeatable promotions from up and coming brands. So, basically, when you join the app, you're going to be prompted to log in to your Amazon account and your Gmail account. From there, we pull in all of your products that you've ever purchased, then we can create a virtual collect of this and that you can show that to your friends Um, but mainly this feeds into the AI algorithm that will create that will aggregate recommendations of which types of products you and your friends are buying, which brands your friends are buying that you might be interested in, as well as directly relevant deals to yourself.",
+        "role": "user"
+      }
+    ],
+    "transcript": "AI: What does Shop to do?\nUser: Hello. Shopt is a mobile app\nUser: for a hundred percent trustable product ratings and recommendations.\nUser: From your own friends as well as unbeatable promotions from\nUser: up and coming brands. So, basically, when you join the app,\nUser: you're going to be prompted to log in to your Amazon account and your Gmail account.\nUser: From there, we pull in all of your products\nUser: that you've ever purchased, then we can create a virtual collect\nUser: of this and that you can show that to your friends\nUser: Um, but mainly this feeds into the AI algorithm that will\nUser: create that will aggregate recommendations\nUser: of which types of products you and your friends are buying,\nUser: which brands your friends are buying that you might be interested in, as well as\nUser: directly relevant deals to yourself.\n"
+  },
+  "costs": [
+    {
+      "cost": 0.00968305,
+      "type": "transcriber",
+      "minutes": 0.9503166666666666,
+      "transcriber": {
+        "model": "nova-2",
+        "provider": "deepgram"
+      }
+    },
+    {
+      "cost": 0.018495,
+      "type": "model",
+      "model": {
+        "model": "gpt-4",
+        "provider": "openai"
+      },
+      "promptTokens": 3624,
+      "completionTokens": 25
+    },
+    {
+      "cost": 0,
+      "type": "voice",
+      "voice": {
+        "voiceId": "5v8WYXwPfkcp3o7efDZt",
+        "provider": "11labs"
+      },
+      "characters": 244
+    },
+    {
+      "cost": 0.04397,
+      "type": "vapi",
+      "minutes": 0.8794,
+      "subType": "normal"
+    },
+    {
+      "cost": 0.001803,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "summary",
+      "promptTokens": 251,
+      "completionTokens": 70
+    },
+    {
+      "cost": 0.00513,
+      "type": "analysis",
+      "model": {
+        "model": "claude-3-5-sonnet-20240620",
+        "provider": "anthropic"
+      },
+      "analysisType": "successEvaluation",
+      "promptTokens": 1690,
+      "completionTokens": 4
+    }
+  ],
+  "monitor": {
+    "listenUrl": "wss://aws-us-west-2-production2-phone-call-websocket.vapi.ai/e9ed43dc-fe8f-4305-a2e3-5b83a0102637/listen",
+    "controlUrl": "https://aws-us-west-2-production2-phone-call-websocket.vapi.ai/e9ed43dc-fe8f-4305-a2e3-5b83a0102637/control"
+  }
+}

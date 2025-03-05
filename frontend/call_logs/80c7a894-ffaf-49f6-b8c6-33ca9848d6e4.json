@@ -1,0 +1,391 @@
+{
+  "id": "80c7a894-ffaf-49f6-b8c6-33ca9848d6e4",
+  "type": "webCall",
+  "startedAt": "2024-05-04T23:19:26.229Z",
+  "endedAt": "2024-05-04T23:20:19.114Z",
+  "transcript": "AI: What does Climbcast do?\nUser: Climbcast helps commercial real estate firms avoid\nUser: penalties from emissions based regulations\nUser: source cost effective\nUser: energy efficiency upgrades for their portfolios.\nUser: And\nUser: identify the most compatible vendors for their buildings.\n",
+  "recordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/1714864819580-f3e1cecb-5f78-476b-811f-2a12d6c248ca.wav",
+  "summary": "Climbcast assists commercial real estate firms by helping them steer clear of penalties associated with emissions-based regulations. It aids these firms in sourcing cost-effective energy efficiency upgrades for their portfolios. Additionally, Climbcast plays a crucial role in matching these firms with the most compatible vendors for their buildings, facilitating a smoother process in making their real estate assets more sustainable and compliant with environmental regulations.",
+  "createdAt": "2024-05-04T23:19:24.293Z",
+  "updatedAt": "2024-05-04T23:20:21.904Z",
+  "orgId": "395c7439-c431-4b81-b2fe-fcb781a75b38",
+  "cost": 0.090106,
+  "webCallUrl": "https://vapi.daily.co/RL1ThEeqtSsxurXNjoYY",
+  "assistant": {
+    "name": "YC Interview Executive Assistant",
+    "transcriber": {
+      "model": "nova-2",
+      "language": "en-US",
+      "provider": "deepgram"
+    },
+    "model": {
+      "model": "gpt-4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Climecast do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Decarbonization management platform. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all."
+        }
+      ],
+      "provider": "openai"
+    },
+    "voice": {
+      "voiceId": "5v8WYXwPfkcp3o7efDZt",
+      "provider": "11labs"
+    },
+    "firstMessage": "What does Climecast do?",
+    "numWordsToInterruptAssistant": 10
+  },
+  "status": "ended",
+  "endedReason": "customer-ended-call",
+  "messages": [
+    {
+      "role": "system",
+      "time": 1714864766184,
+      "message": "You are an interviewer for YCombinator, the world's best start-up accelerator. You are directly responsible for deciding if a company should receive $500,000 in funding. There are thousands of companies interviewing and you will only accept 100.\n\n        Your job is to ask questions to identify what the company does, how much traction there is, who the team is, and why they're capable of building a billion dollar company. \n\n        Start the conversation by asking \"what does Climecast do?\".\n\n  There are several types of questions you should ask in your interview. Here are the themes: \n\n  Product and Market Fit\n  Technical Aspects\n  Business Strategy and Model\n  Team Dynamics and Execution\n  Challenges and Risks\n  Metrics and Performance\n\n  \n  And here are some examples. Do not ask the same question twice.\n\n  What do you understand that others don't?\n  Why will you succeed?\n  How big an opportunity is there?\n  What problems/hurdles are you anticipating?\n  Who would use your product?\n  How much does customer acquisition cost?\n  How will you make money?\n  How much money could you make per year?\n  How many users do you have?\n  What is your user growth rate?\n  How many users are paying?\n  How are you meeting customers?\n  How are you understanding customer needs?\n  How will you get users?\n  Who would you hire or how would you add to your team?\n  So what are you working on?\n  Do you have a demo?\n  Where is the rocket science here?\n  How does your product work in more detail?\n  How is your product different?\n  What are you going to do next?\n  What's new about what you make?\n  What, exactly, makes you different from existing options?\n  Who needs what you're making?\n  How do you know customers need what you're making?\n  Why isn't someone already doing this?\n  What obstacles will you face and how will you overcome them?\n  How will customers and/or users find out about you?\n  What resistance will they have to trying you and how will you overcome it?\n  What are the key things about your field that outsiders don't understand?\n  What part of your project are you going to build first?\n  Who is going to be your first paying customer?\n  If your startup succeeds, what additional areas might you be able to expand into?\n  Why did you choose this idea?\n  What have you learned so far from working on your product?\n  Six months from now, what's going to be your biggest problem?\n  Where do new users come from?\n  What is your growth like?\n  What's the conversion rate?\n  What makes new users try you?\n  Why do the reluctant users hold back?\n  What are the top things users want?\n  What has surprised you about user behaviour?\n  What's an impressive thing you have done?\n  What do you understand about your users?\n  Why did you pick this idea to work on?\n  What domain expertise do you have?\n  Who are your competitors?\n  Who might become competitors?\n  Someone just showed us an idea like this right before you guys. I don't like it. What else do you have?\n  What competition do you fear most?\n  What is your distribution strategy?\n  How did your team meet?\n  Why did your team get together?\n  Who in your team does what?\n  Who is \"the boss\"?\n  What will you do if we don't fund you?\n  Would you relocate to Silicon Valley?\n  How do we know your team will stick together?\n  What else have you created together?\n  Are you open to changing your idea?\n  What systems have you hacked?\n  Tell us about a tough problem you solved?\n  In what ways are you resourceful?\n  Will you reincorporate as a US company?\n  Will your team stick at this?\n  Tell us something surprising you have done?\n  What's the funniest thing that has happened to you?\n  What's the worst thing that has happened?\n  What's the biggest mistake you have made?\n  What is your burn rate?\n  How long can you go before funding?\n  What is the next step with the product evolution?\n  Have you raised funding?\n  Who would be your next hire?\n  How do you know people want this?\n  What do you know about this space/product others don't know?\n\n  When possible ask these questions and reference the description of their company Decarbonization management platform. Don't overly rely on this, but make it useful. \n  \n\n  Evaluate each user's answers based on the below:\n\n  Brevity and Clarity: Check if the answer is direct and concise, ideally within 2-3 sentences without unnecessary details.\n  Relevance and Substance: Ensure the response is directly relevant to the query and provides substantial information without vague or generic statements.\n  Confidence and Precision: Look for precise language and a confident tone, avoiding filler words like \"um\" or \"uh.\"\n  Pacing: Assess whether the response matches the quick conversational tempo typical in high-energy business discussions like those at Y Combinator.\n  \n\n  Here are other tips you should follow when conducting the interview:\n\n    - The best way to evaluate companies is to use the individuals response, and ask a follow-up question after their answer. Try to do this as often as possible.\n    - Occasionally, briefly summarize a users response to make sure you heard it clearly. \n    - Be sure to be intelligent and ask precise questions about the company!\n    - Ask one follow-up question after each answer. Especially when it's unclear.\n    - Interrupt when the candidate is rambling or going off-topic. Answers should not be longer than 10s. \n    - Keep all your responses short and simple. Use specific language, but simple vocabulary. \n    - This is an interview, so keep your responses and questions very short, like in a real conversation. Don't ramble at all.",
+      "secondsFromStart": 0
+    },
+    {
+      "role": "bot",
+      "time": 1714864767627,
+      "source": "",
+      "endTime": 1714864768947,
+      "message": "What does Climbcast do?",
+      "secondsFromStart": 1.1999999
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864769738,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 3.554
+    },
+    {
+      "role": "user",
+      "time": 1714864770687,
+      "endTime": 1714864774227,
+      "message": "Climbcast helps commercial real estate firms avoid",
+      "duration": 4.9399996,
+      "secondsFromStart": 4.26
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864770735,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 4.551
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864771738,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 5.554
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864772740,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 6.556
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864773738,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 7.554
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864774740,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 8.556
+    },
+    {
+      "role": "user",
+      "time": 1714864775227,
+      "endTime": 1714864777327,
+      "message": "penalties from emissions based regulations",
+      "duration": 3.8599997,
+      "secondsFromStart": 8.8
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864775739,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 9.555
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864776762,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 10.578
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864777780,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 11.596
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864778802,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 12.618
+    },
+    {
+      "role": "user",
+      "time": 1714864779247,
+      "endTime": 1714864780386.999,
+      "message": "source cost effective",
+      "duration": 2.4800005,
+      "secondsFromStart": 12.82
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864779821,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 13.637
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864780841,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 14.657
+    },
+    {
+      "role": "user",
+      "time": 1714864781727,
+      "endTime": 1714864784307.001,
+      "message": "energy efficiency upgrades for their portfolios.",
+      "duration": 4.34,
+      "secondsFromStart": 15.3
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864781859,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 15.675
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864782881,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 16.697
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864783903,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 17.719
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864784921,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 18.737
+    },
+    {
+      "role": "user",
+      "time": 1714864785597,
+      "endTime": 1714864786007,
+      "message": "And",
+      "duration": 0.8199997,
+      "secondsFromStart": 19.17
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864785939,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 19.755
+    },
+    {
+      "role": "user",
+      "time": 1714864786327,
+      "endTime": 1714864790587,
+      "message": "identify the most compatible vendors for their buildings.",
+      "duration": 4.879999,
+      "secondsFromStart": 19.9
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864786961,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 20.777
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864787981,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 21.797
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864789000,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 22.816
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864790020,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 23.836
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864791046,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 24.862
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864792064,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 25.88
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864793086,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 26.902
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864794101,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 27.917
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864795122,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 28.938
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864796138,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 29.954
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864797163,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 30.979
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864798183,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 31.999
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864799207,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 33.023
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864800228,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 34.044
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864801244,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 35.06
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864802262,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 36.078
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864803281,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 37.097
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864805322,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 39.138
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864806343,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 40.159
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864807362,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 41.178
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864808381,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 42.197
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864809402,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 43.218
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864810421,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 44.237
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864811443,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 45.259
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864812460,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 46.276
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864813483,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 47.299
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864814502,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 48.318
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864815523,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 49.339
+    },
+    {
+      "role": "tool_call_result",
+      "time": 1714864816542,
+      "result": "The user has spent too long answering the question. Interrupt the conversation.",
+      "secondsFromStart": 50.358
+    }
+  ],
+  "stereoRecordingUrl": "https://auth.vapi.ai/storage/v1/object/public/recordings/1714864819586-7d6a997a-67b4-4c68-974a-217f6862710b.wav",
+  "costBreakdown": {
+    "stt": 0.008606,
+    "llm": 0.03743,
+    "tts": 0,
+    "vapi": 0.044071,
+    "total": 0.090106,
+    "llmPromptTokens": 3656,
+    "llmCompletionTokens": 29,
+    "ttsCharacters": 134
+  }
+}
