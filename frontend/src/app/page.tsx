@@ -181,7 +181,7 @@ export default function Home() {
     //   voiceId: "jennifer",
     // },
     // we don't need a server
-    serverUrl: "http://localhost:3000",
+    // serverUrl: "http://localhost:3000",
     voice: {
       provider: "11labs",
       voiceId: "5v8WYXwPfkcp3o7efDZt", // Dalton
